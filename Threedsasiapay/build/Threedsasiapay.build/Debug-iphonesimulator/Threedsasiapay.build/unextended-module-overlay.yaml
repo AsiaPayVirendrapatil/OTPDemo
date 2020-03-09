@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/virendrapatil/Library/Developer/Xcode/DerivedData/Threedsasiapay-futfehhyfaeozkcttuittukytsgb/Build/Products/Debug-iphonesimulator/Threedsasiapay.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/virendrapatil/Desktop/Threedsasiapay/build/Threedsasiapay.build/Debug-iphonesimulator/Threedsasiapay.build/unextended-module.modulemap",
+    }]
+  }]
+}

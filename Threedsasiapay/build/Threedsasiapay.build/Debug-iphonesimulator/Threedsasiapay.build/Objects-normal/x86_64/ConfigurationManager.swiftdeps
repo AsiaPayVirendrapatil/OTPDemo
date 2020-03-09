@@ -1,0 +1,344 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConfigurationManager"
+provides-nominal:
+- "14Threedsasiapay20ConfigurationManagerC"
+provides-member:
+- ["14Threedsasiapay20ConfigurationManagerC", ""]
+provides-dynamic-lookup:
+- "API_KEY"
+- "CARDHOLDER_ENDPOINT"
+- "DEVICE_INFO"
+- "ENVIRONMENT_NAME"
+- "PROTOCOL"
+- "RAS_DELETE_ALL_TC_MESSAGES_ENDPOINT"
+- "RAS_FETCH_TC_MESSAGE_ENDPOINT"
+- "RAS_NOTIFY_TEST_MANAEGMENT_ENDPOINT"
+- "REFERENCE_APP_SERVER_IP"
+- "REFERENCE_APP_SERVER_PORT"
+- "REFERENCE_APP_SERVER_SCREENSHOT_ENDPOINT"
+- "SDK_VENDOR_HEADER_KEY"
+- "SDK_VENDOR_KEY_VALUE"
+- "THREE_DS_SERVER_ENDPOINT"
+- "challengeUrl"
+depends-top-level:
+- "Bool"
+- "Bundle"
+- "CastingPrecedence"
+- "ConfigurationManager"
+- "NSDictionary"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- ["So8NSBundleC", "main"]
+- ["So8NSBundleC", "object"]
+- ["So8NSBundleC", "path"]
+- ["s7CVarArgP", "Bundle"]
+- ["s7CVarArgP", "NSDictionary"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "load"]
+- ["s7CVarArgP", "loadBool"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "object"]
+- ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "sampleConf"]
+- ["s7CVarArgP", "typeOfConfiguration"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["14Threedsasiapay20ConfigurationManagerC", "API_KEY"]
+- ["14Threedsasiapay20ConfigurationManagerC", "Bool"]
+- ["14Threedsasiapay20ConfigurationManagerC", "Bundle"]
+- ["14Threedsasiapay20ConfigurationManagerC", "CARDHOLDER_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "DEVICE_INFO"]
+- ["14Threedsasiapay20ConfigurationManagerC", "ENVIRONMENT_NAME"]
+- ["14Threedsasiapay20ConfigurationManagerC", "KEEP_FETCHING"]
+- ["14Threedsasiapay20ConfigurationManagerC", "NSDictionary"]
+- ["14Threedsasiapay20ConfigurationManagerC", "PROTOCOL"]
+- ["14Threedsasiapay20ConfigurationManagerC", "RAS_DELETE_ALL_TC_MESSAGES_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "RAS_FETCH_TC_MESSAGE_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "RAS_NOTIFY_TEST_MANAEGMENT_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "REFERENCE_APP_SERVER_IP"]
+- ["14Threedsasiapay20ConfigurationManagerC", "REFERENCE_APP_SERVER_PORT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "REFERENCE_APP_SERVER_SCREENSHOT_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "SDK_VENDOR_HEADER_KEY"]
+- ["14Threedsasiapay20ConfigurationManagerC", "SDK_VENDOR_KEY_VALUE"]
+- ["14Threedsasiapay20ConfigurationManagerC", "String"]
+- ["14Threedsasiapay20ConfigurationManagerC", "THREE_DS_SERVER_ENDPOINT"]
+- ["14Threedsasiapay20ConfigurationManagerC", "challengeUrl"]
+- ["14Threedsasiapay20ConfigurationManagerC", "init"]
+- ["14Threedsasiapay20ConfigurationManagerC", "load"]
+- ["14Threedsasiapay20ConfigurationManagerC", "loadBool"]
+- ["14Threedsasiapay20ConfigurationManagerC", "path"]
+- !private ["14Threedsasiapay20ConfigurationManagerC", "sampleConf"]
+- ["14Threedsasiapay20ConfigurationManagerC", "typeOfConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "Bundle"]
+- ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "load"]
+- ["s28CustomDebugStringConvertibleP", "loadBool"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "object"]
+- ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "sampleConf"]
+- ["s28CustomDebugStringConvertibleP", "typeOfConfiguration"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "object"]
+- ["s23CustomStringConvertibleP", "Bundle"]
+- ["s23CustomStringConvertibleP", "NSDictionary"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "load"]
+- ["s23CustomStringConvertibleP", "loadBool"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "object"]
+- ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "sampleConf"]
+- ["s23CustomStringConvertibleP", "typeOfConfiguration"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", "Bundle"]
+- ["SQ", "NSDictionary"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "load"]
+- ["SQ", "loadBool"]
+- ["SQ", "main"]
+- ["SQ", "object"]
+- ["SQ", "path"]
+- !private ["SQ", "sampleConf"]
+- ["SQ", "typeOfConfiguration"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "object"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Bundle"]
+- ["SH", "NSDictionary"]
+- ["SH", ""]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "load"]
+- ["SH", "loadBool"]
+- ["SH", "main"]
+- ["SH", "object"]
+- ["SH", "path"]
+- !private ["SH", "sampleConf"]
+- ["SH", "typeOfConfiguration"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "object"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "object"]
+- ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "object"]
+- ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "object"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "object"]
+- ["So8NSObjectC", "API_KEY"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CARDHOLDER_ENDPOINT"]
+- ["So8NSObjectC", "DEVICE_INFO"]
+- ["So8NSObjectC", "ENVIRONMENT_NAME"]
+- ["So8NSObjectC", "KEEP_FETCHING"]
+- ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "PROTOCOL"]
+- ["So8NSObjectC", "RAS_DELETE_ALL_TC_MESSAGES_ENDPOINT"]
+- ["So8NSObjectC", "RAS_FETCH_TC_MESSAGE_ENDPOINT"]
+- ["So8NSObjectC", "RAS_NOTIFY_TEST_MANAEGMENT_ENDPOINT"]
+- ["So8NSObjectC", "REFERENCE_APP_SERVER_IP"]
+- ["So8NSObjectC", "REFERENCE_APP_SERVER_PORT"]
+- ["So8NSObjectC", "REFERENCE_APP_SERVER_SCREENSHOT_ENDPOINT"]
+- ["So8NSObjectC", "SDK_VENDOR_HEADER_KEY"]
+- ["So8NSObjectC", "SDK_VENDOR_KEY_VALUE"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "THREE_DS_SERVER_ENDPOINT"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "challengeUrl"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "load"]
+- ["So8NSObjectC", "loadBool"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "object"]
+- ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "sampleConf"]
+- ["So8NSObjectC", "typeOfConfiguration"]
+- ["So8NSObjectP", "Bundle"]
+- ["So8NSObjectP", "NSDictionary"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "load"]
+- ["So8NSObjectP", "loadBool"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "object"]
+- ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "sampleConf"]
+- ["So8NSObjectP", "typeOfConfiguration"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "object"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "object"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "object"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loadBool"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sampleConf"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "typeOfConfiguration"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "14Threedsasiapay20ConfigurationManagerC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/CryptoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/SDK/isDebugged.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/Threedsasiapay/Threedsasiapay.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/build/Threedsasiapay.build/Debug-iphonesimulator/Threedsasiapay.build/unextended-module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AdSupport.framework/Headers/AdSupport.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6d603ee73468dd1cc99dc142775fa89c"

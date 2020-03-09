@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:emvco3ds-ios-app.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:emvco3ds-ios-framework/emvco3ds-ios-framework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

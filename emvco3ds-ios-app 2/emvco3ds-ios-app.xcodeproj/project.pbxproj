@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F34F75F1EE984D9006FC472 /* configuration-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F34F75E1EE984D9006FC472 /* configuration-Debug.plist */; };
+		0F37CCC11F38B1A0003945C6 /* configuration-UAT.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F37CCC01F38B1A0003945C6 /* configuration-UAT.plist */; };
+		0F61DA791EC9D7A9002B5B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61DA781EC9D7A9002B5B70 /* AppDelegate.swift */; };
+		0F61DA831EC9D7A9002B5B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F61DA821EC9D7A9002B5B70 /* Assets.xcassets */; };
+		0F61DA861EC9D7A9002B5B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F61DA841EC9D7A9002B5B70 /* LaunchScreen.storyboard */; };
+		0FE0E7D11ECB465600EF4A8B /* configuration-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0E7D01ECB465600EF4A8B /* configuration-Release.plist */; };
+		4E9B177020066E5200095CFF /* Pods_emvco3ds_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9B177120066E5200095CFF /* Pods_emvco3ds_ios_app.framework */; };
+		A14CA58220CFEC990055879D /* Sample in Resources */ = {isa = PBXBuildFile; fileRef = A14CA58120CFEC980055879D /* Sample */; };
+		A15D7B1E21149ED00083B7F8 /* emvco3ds_ios_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D7B1F21149ED00083B7F8 /* emvco3ds_ios_framework.framework */; };
+		A179A47820EB7E5800B1D912 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A179A47720EB7E5800B1D912 /* fontawesome-webfont.ttf */; };
+		A17C1F6720EA6017005954C1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17C1F6620EA6017005954C1 /* WebKit.framework */; };
+		A1A7446F21B6C74300CAF0E3 /* AppDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A7446E21B6C74300CAF0E3 /* AppDelegateTest.swift */; };
+		A1B6736920D3A89F008901E4 /* configuration-SMOKE.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1B6736820D3A89F008901E4 /* configuration-SMOKE.plist */; };
+		A1BD95C2221C4D5E00992ACC /* configuration-KEEPFETCHING.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1BD95C1221C4D5E00992ACC /* configuration-KEEPFETCHING.plist */; };
+		A1F025D5211DC2CC00981398 /* emvco3ds_ios_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A15D7B1F21149ED00083B7F8 /* emvco3ds_ios_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F73A812276A7D56C5E19C66D /* Pods_emvco3ds_ios_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA1D4703995E7B5393002AD /* Pods_emvco3ds_ios_appTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F61DA8D1EC9D7A9002B5B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F61DA6D1EC9D7A9002B5B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F61DA741EC9D7A9002B5B70;
+			remoteInfo = "emvco3ds-ios-app";
+		};
+		37FFF50722D373D1004A4A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1C53A8F21149B0300CAA9E6;
+			remoteInfo = "emvco3ds-ios-framework";
+		};
+		37FFF50922D373D1004A4A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37FFF47122D36EA7004A4A17;
+			remoteInfo = 3dssdk;
+		};
+		37FFF50B22D373D1004A4A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37FFF4FF22D372D1004A4A17;
+			remoteInfo = "3dssdk copy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1F025D6211DC2CD00981398 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1F025D5211DC2CC00981398 /* emvco3ds_ios_framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BA1D4703995E7B5393002AD /* Pods_emvco3ds_ios_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emvco3ds_ios_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F34F75E1EE984D9006FC472 /* configuration-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "configuration-Debug.plist"; sourceTree = "<group>"; };
+		0F37CCC01F38B1A0003945C6 /* configuration-UAT.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "configuration-UAT.plist"; sourceTree = "<group>"; };
+		0F61DA751EC9D7A9002B5B70 /* emvco3ds-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emvco3ds-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F61DA781EC9D7A9002B5B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F61DA821EC9D7A9002B5B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F61DA851EC9D7A9002B5B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F61DA871EC9D7A9002B5B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F61DA8C1EC9D7A9002B5B70 /* emvco3ds-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emvco3ds-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F61DA921EC9D7A9002B5B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F61DA9D1EC9D7A9002B5B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE0E7D01ECB465600EF4A8B /* configuration-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "configuration-Release.plist"; sourceTree = "<group>"; };
+		12DD64A9C4FE9763ED8EB50F /* Pods-emvco3ds-ios-appTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.dev.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.dev.xcconfig"; sourceTree = "<group>"; };
+		17DFE41782ECAA34C1037463 /* Pods-emvco3ds-ios-appTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.uat.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.uat.xcconfig"; sourceTree = "<group>"; };
+		37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "emvco3ds-ios-framework.xcodeproj"; path = "emvco3ds-ios-framework/emvco3ds-ios-framework.xcodeproj"; sourceTree = "<group>"; };
+		4260D98302A6202C88010556 /* Pods-emvco3ds-ios-app.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.uat.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.uat.xcconfig"; sourceTree = "<group>"; };
+		4822DBA48EB2E7210C3DEF54 /* Pods-emvco3ds-ios-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E0931592004F3E300410FAF /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E09315A2004F6C600410FAF /* MI_SDK_EMVCO_UL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MI_SDK_EMVCO_UL.framework; path = "emvco3ds-ios-pods/LocalPods-device/MI_SDK_EMVCO_UL.framework"; sourceTree = "<group>"; };
+		4E9B177120066E5200095CFF /* Pods_emvco3ds_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_emvco3ds_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590B1EE4F9B98C229EA42C19 /* Pods-emvco3ds-ios-appTests.keepfetching.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.keepfetching.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.keepfetching.xcconfig"; sourceTree = "<group>"; };
+		5A0DC966D80D45BA8F8EE6D3 /* Pods-emvco3ds-ios-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C6AB8920A6960594151B4F6 /* Pods-emvco3ds-ios-appUITests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.uat.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.uat.xcconfig"; sourceTree = "<group>"; };
+		6451AAA0D899829C9B4AD4E9 /* Pods-emvco3ds-ios-appTests.smoke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.smoke.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.smoke.xcconfig"; sourceTree = "<group>"; };
+		68EE94172B13C73CE1714EB6 /* Pods-emvco3ds-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		69AB0DB6DA2BC0832B583E47 /* Pods-emvco3ds-ios-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74001B54F0522F0B82F64DB8 /* Pods-emvco3ds-ios-app.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.dev.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.dev.xcconfig"; sourceTree = "<group>"; };
+		75BDA42B0495AA87EB53A441 /* Pods-emvco3ds-ios-appTests.dev v2.1.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appTests.dev v2.1.0.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appTests/Pods-emvco3ds-ios-appTests.dev v2.1.0.xcconfig"; sourceTree = "<group>"; };
+		7AFA2CA1180661E15D3F384F /* Pods-emvco3ds-ios-appUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.dev.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.dev.xcconfig"; sourceTree = "<group>"; };
+		88D507363A73A1DCC1FFDAEB /* Pods-emvco3ds-ios-appUITests.smoke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.smoke.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.smoke.xcconfig"; sourceTree = "<group>"; };
+		91D819D5D9FD689BE0065D7F /* Pods_emvco3ds_ios_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emvco3ds_ios_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F763C7A4E6E23D7553B0AC0 /* Pods-emvco3ds-ios-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A00C3C4F430E3128140DBFB6 /* Pods-emvco3ds-ios-appUITests.dev v2.1.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-appUITests.dev v2.1.0.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-appUITests/Pods-emvco3ds-ios-appUITests.dev v2.1.0.xcconfig"; sourceTree = "<group>"; };
+		A14CA58120CFEC980055879D /* Sample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sample; sourceTree = "<group>"; };
+		A15D7B1F21149ED00083B7F8 /* emvco3ds_ios_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = emvco3ds_ios_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A179A47720EB7E5800B1D912 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		A17C1F6620EA6017005954C1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A1A7446E21B6C74300CAF0E3 /* AppDelegateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTest.swift; sourceTree = "<group>"; };
+		A1B6736820D3A89F008901E4 /* configuration-SMOKE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "configuration-SMOKE.plist"; sourceTree = "<group>"; };
+		A1BD95C1221C4D5E00992ACC /* configuration-KEEPFETCHING.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "configuration-KEEPFETCHING.plist"; sourceTree = "<group>"; };
+		B270466D6EFFD59648491AB4 /* Pods-emvco3ds-ios-app.keepfetching.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.keepfetching.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.keepfetching.xcconfig"; sourceTree = "<group>"; };
+		B96B595E2AEEA10CD2D6972D /* Pods-emvco3ds-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D65864A5C3E588D2F806DD /* Pods-emvco3ds-ios-app.smoke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.smoke.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.smoke.xcconfig"; sourceTree = "<group>"; };
+		CFCEF2996911DDE5179EACBA /* Pods-emvco3ds-ios-app.dev v2.1.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emvco3ds-ios-app.dev v2.1.0.xcconfig"; path = "Pods/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app.dev v2.1.0.xcconfig"; sourceTree = "<group>"; };
+		FC86A2075AF03FB95367FD5A /* Pods_emvco3ds_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emvco3ds_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F61DA721EC9D7A9002B5B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D7B1E21149ED00083B7F8 /* emvco3ds_ios_framework.framework in Frameworks */,
+				A17C1F6720EA6017005954C1 /* WebKit.framework in Frameworks */,
+				4E9B177020066E5200095CFF /* Pods_emvco3ds_ios_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F61DA891EC9D7A9002B5B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73A812276A7D56C5E19C66D /* Pods_emvco3ds_ios_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F61DA6C1EC9D7A9002B5B70 = {
+			isa = PBXGroup;
+			children = (
+				37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */,
+				A14CA58120CFEC980055879D /* Sample */,
+				0F61DA771EC9D7A9002B5B70 /* emvco3ds-ios-app */,
+				0F61DA8F1EC9D7A9002B5B70 /* emvco3ds-ios-appTests */,
+				0F61DA9A1EC9D7A9002B5B70 /* emvco3ds-ios-appUITests */,
+				2274213AC97FB7801F6B8696 /* Frameworks */,
+				7B404BFE8605DBE2CA46F070 /* Pods */,
+				0F61DA761EC9D7A9002B5B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F61DA761EC9D7A9002B5B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F61DA751EC9D7A9002B5B70 /* emvco3ds-ios-app.app */,
+				0F61DA8C1EC9D7A9002B5B70 /* emvco3ds-ios-appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F61DA771EC9D7A9002B5B70 /* emvco3ds-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				0F61DA871EC9D7A9002B5B70 /* Info.plist */,
+				0F61DA781EC9D7A9002B5B70 /* AppDelegate.swift */,
+				A1CC3D9320D7CDD700A905E1 /* configurations */,
+				A1CC3D9520D7CF3C00A905E1 /* ui */,
+			);
+			path = "emvco3ds-ios-app";
+			sourceTree = "<group>";
+		};
+		0F61DA8F1EC9D7A9002B5B70 /* emvco3ds-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A7446E21B6C74300CAF0E3 /* AppDelegateTest.swift */,
+				0F61DA921EC9D7A9002B5B70 /* Info.plist */,
+			);
+			path = "emvco3ds-ios-appTests";
+			sourceTree = "<group>";
+		};
+		0F61DA9A1EC9D7A9002B5B70 /* emvco3ds-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F61DA9D1EC9D7A9002B5B70 /* Info.plist */,
+			);
+			path = "emvco3ds-ios-appUITests";
+			sourceTree = "<group>";
+		};
+		2274213AC97FB7801F6B8696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A15D7B1F21149ED00083B7F8 /* emvco3ds_ios_framework.framework */,
+				A17C1F6620EA6017005954C1 /* WebKit.framework */,
+				4E9B177120066E5200095CFF /* Pods_emvco3ds_ios_app.framework */,
+				4E09315A2004F6C600410FAF /* MI_SDK_EMVCO_UL.framework */,
+				4E0931592004F3E300410FAF /* ObjectMapper.framework */,
+				FC86A2075AF03FB95367FD5A /* Pods_emvco3ds_ios_app.framework */,
+				0BA1D4703995E7B5393002AD /* Pods_emvco3ds_ios_appTests.framework */,
+				91D819D5D9FD689BE0065D7F /* Pods_emvco3ds_ios_appUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37FFF50222D373D0004A4A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FFF50822D373D1004A4A17 /* emvco3ds_ios_framework.framework */,
+				37FFF50A22D373D1004A4A17 /* _dssdk.framework */,
+				37FFF50C22D373D1004A4A17 /* 3dssdk copy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B404BFE8605DBE2CA46F070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B96B595E2AEEA10CD2D6972D /* Pods-emvco3ds-ios-app.debug.xcconfig */,
+				68EE94172B13C73CE1714EB6 /* Pods-emvco3ds-ios-app.release.xcconfig */,
+				4822DBA48EB2E7210C3DEF54 /* Pods-emvco3ds-ios-appTests.debug.xcconfig */,
+				5A0DC966D80D45BA8F8EE6D3 /* Pods-emvco3ds-ios-appTests.release.xcconfig */,
+				69AB0DB6DA2BC0832B583E47 /* Pods-emvco3ds-ios-appUITests.debug.xcconfig */,
+				9F763C7A4E6E23D7553B0AC0 /* Pods-emvco3ds-ios-appUITests.release.xcconfig */,
+				4260D98302A6202C88010556 /* Pods-emvco3ds-ios-app.uat.xcconfig */,
+				17DFE41782ECAA34C1037463 /* Pods-emvco3ds-ios-appTests.uat.xcconfig */,
+				5C6AB8920A6960594151B4F6 /* Pods-emvco3ds-ios-appUITests.uat.xcconfig */,
+				CFCEF2996911DDE5179EACBA /* Pods-emvco3ds-ios-app.dev v2.1.0.xcconfig */,
+				75BDA42B0495AA87EB53A441 /* Pods-emvco3ds-ios-appTests.dev v2.1.0.xcconfig */,
+				A00C3C4F430E3128140DBFB6 /* Pods-emvco3ds-ios-appUITests.dev v2.1.0.xcconfig */,
+				74001B54F0522F0B82F64DB8 /* Pods-emvco3ds-ios-app.dev.xcconfig */,
+				12DD64A9C4FE9763ED8EB50F /* Pods-emvco3ds-ios-appTests.dev.xcconfig */,
+				7AFA2CA1180661E15D3F384F /* Pods-emvco3ds-ios-appUITests.dev.xcconfig */,
+				C5D65864A5C3E588D2F806DD /* Pods-emvco3ds-ios-app.smoke.xcconfig */,
+				6451AAA0D899829C9B4AD4E9 /* Pods-emvco3ds-ios-appTests.smoke.xcconfig */,
+				88D507363A73A1DCC1FFDAEB /* Pods-emvco3ds-ios-appUITests.smoke.xcconfig */,
+				B270466D6EFFD59648491AB4 /* Pods-emvco3ds-ios-app.keepfetching.xcconfig */,
+				590B1EE4F9B98C229EA42C19 /* Pods-emvco3ds-ios-appTests.keepfetching.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1CC3D9320D7CDD700A905E1 /* configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A1BD95C1221C4D5E00992ACC /* configuration-KEEPFETCHING.plist */,
+				0F34F75E1EE984D9006FC472 /* configuration-Debug.plist */,
+				A1B6736820D3A89F008901E4 /* configuration-SMOKE.plist */,
+				0F37CCC01F38B1A0003945C6 /* configuration-UAT.plist */,
+				0FE0E7D01ECB465600EF4A8B /* configuration-Release.plist */,
+			);
+			path = configurations;
+			sourceTree = "<group>";
+		};
+		A1CC3D9520D7CF3C00A905E1 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				0F61DA821EC9D7A9002B5B70 /* Assets.xcassets */,
+				A179A47720EB7E5800B1D912 /* fontawesome-webfont.ttf */,
+				0F61DA841EC9D7A9002B5B70 /* LaunchScreen.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F61DA741EC9D7A9002B5B70 /* emvco3ds-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F61DAA01EC9D7A9002B5B70 /* Build configuration list for PBXNativeTarget "emvco3ds-ios-app" */;
+			buildPhases = (
+				9E2D91AAADDE0617E5D7672F /* [CP] Check Pods Manifest.lock */,
+				0F61DA711EC9D7A9002B5B70 /* Sources */,
+				0F61DA721EC9D7A9002B5B70 /* Frameworks */,
+				0F61DA731EC9D7A9002B5B70 /* Resources */,
+				437B931146C7025A2419CEB2 /* [CP] Embed Pods Frameworks */,
+				A1F025D6211DC2CD00981398 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "emvco3ds-ios-app";
+			productName = "emvco3ds-ios-app";
+			productReference = 0F61DA751EC9D7A9002B5B70 /* emvco3ds-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F61DA8B1EC9D7A9002B5B70 /* emvco3ds-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F61DAA31EC9D7A9002B5B70 /* Build configuration list for PBXNativeTarget "emvco3ds-ios-appTests" */;
+			buildPhases = (
+				6FDD317C044271AD47CB5045 /* [CP] Check Pods Manifest.lock */,
+				0F61DA881EC9D7A9002B5B70 /* Sources */,
+				0F61DA891EC9D7A9002B5B70 /* Frameworks */,
+				0F61DA8A1EC9D7A9002B5B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F61DA8E1EC9D7A9002B5B70 /* PBXTargetDependency */,
+			);
+			name = "emvco3ds-ios-appTests";
+			productName = "emvco3ds-ios-appTests";
+			productReference = 0F61DA8C1EC9D7A9002B5B70 /* emvco3ds-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F61DA6D1EC9D7A9002B5B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "UL Transaction Security";
+				TargetAttributes = {
+					0F61DA741EC9D7A9002B5B70 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MTYU6J6G5F;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					0F61DA8B1EC9D7A9002B5B70 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MTYU6J6G5F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F61DA741EC9D7A9002B5B70;
+					};
+				};
+			};
+			buildConfigurationList = 0F61DA701EC9D7A9002B5B70 /* Build configuration list for PBXProject "emvco3ds-ios-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F61DA6C1EC9D7A9002B5B70;
+			productRefGroup = 0F61DA761EC9D7A9002B5B70 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 37FFF50222D373D0004A4A17 /* Products */;
+					ProjectRef = 37FFF50122D373D0004A4A17 /* emvco3ds-ios-framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0F61DA8B1EC9D7A9002B5B70 /* emvco3ds-ios-appTests */,
+				0F61DA741EC9D7A9002B5B70 /* emvco3ds-ios-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		37FFF50822D373D1004A4A17 /* emvco3ds_ios_framework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = emvco3ds_ios_framework.framework;
+			remoteRef = 37FFF50722D373D1004A4A17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37FFF50A22D373D1004A4A17 /* _dssdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = _dssdk.framework;
+			remoteRef = 37FFF50922D373D1004A4A17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37FFF50C22D373D1004A4A17 /* 3dssdk copy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "3dssdk copy.framework";
+			remoteRef = 37FFF50B22D373D1004A4A17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F61DA731EC9D7A9002B5B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61DA861EC9D7A9002B5B70 /* LaunchScreen.storyboard in Resources */,
+				A1B6736920D3A89F008901E4 /* configuration-SMOKE.plist in Resources */,
+				0F37CCC11F38B1A0003945C6 /* configuration-UAT.plist in Resources */,
+				0F34F75F1EE984D9006FC472 /* configuration-Debug.plist in Resources */,
+				A1BD95C2221C4D5E00992ACC /* configuration-KEEPFETCHING.plist in Resources */,
+				0FE0E7D11ECB465600EF4A8B /* configuration-Release.plist in Resources */,
+				0F61DA831EC9D7A9002B5B70 /* Assets.xcassets in Resources */,
+				A14CA58220CFEC990055879D /* Sample in Resources */,
+				A179A47820EB7E5800B1D912 /* fontawesome-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F61DA8A1EC9D7A9002B5B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		437B931146C7025A2419CEB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${PODS_ROOT}/../emvco3ds-ios-pods/protocols_pod/swift42/emvco3ds_protocols_ios.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/emvco3ds_protocols_ios.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-emvco3ds-ios-app/Pods-emvco3ds-ios-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FDD317C044271AD47CB5045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emvco3ds-ios-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2D91AAADDE0617E5D7672F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emvco3ds-ios-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F61DA711EC9D7A9002B5B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61DA791EC9D7A9002B5B70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F61DA881EC9D7A9002B5B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A7446F21B6C74300CAF0E3 /* AppDelegateTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F61DA8E1EC9D7A9002B5B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F61DA741EC9D7A9002B5B70 /* emvco3ds-ios-app */;
+			targetProxy = 0F61DA8D1EC9D7A9002B5B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F61DA841EC9D7A9002B5B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F61DA851EC9D7A9002B5B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F37CCBC1F38B158003945C6 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = UAT;
+		};
+		0F37CCBD1F38B158003945C6 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4260D98302A6202C88010556 /* Pods-emvco3ds-ios-app.uat.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/LocalPods-device",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = UAT;
+		};
+		0F37CCBE1F38B158003945C6 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DFE41782ECAA34C1037463 /* Pods-emvco3ds-ios-appTests.uat.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = UAT;
+		};
+		0F61DA9E1EC9D7A9002B5B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		0F61DA9F1EC9D7A9002B5B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F61DAA11EC9D7A9002B5B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96B595E2AEEA10CD2D6972D /* Pods-emvco3ds-ios-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/LocalPods-device",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0F61DAA21EC9D7A9002B5B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EE94172B13C73CE1714EB6 /* Pods-emvco3ds-ios-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/LocalPods-device",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0F61DAA41EC9D7A9002B5B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4822DBA48EB2E7210C3DEF54 /* Pods-emvco3ds-ios-appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = Debug;
+		};
+		0F61DAA51EC9D7A9002B5B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0DC966D80D45BA8F8EE6D3 /* Pods-emvco3ds-ios-appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = Release;
+		};
+		4E63107E203B194300AB263F /* DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = DEV;
+		};
+		4E63107F203B194300AB263F /* DEV */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74001B54F0522F0B82F64DB8 /* Pods-emvco3ds-ios-app.dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/sdk_pod/swift42",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = DEV;
+		};
+		4E631080203B194300AB263F /* DEV */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DD64A9C4FE9763ED8EB50F /* Pods-emvco3ds-ios-appTests.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = DEV;
+		};
+		A17613F1221C4ED3003CF465 /* KEEPFETCHING */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = KEEPFETCHING;
+		};
+		A17613F2221C4ED3003CF465 /* KEEPFETCHING */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B270466D6EFFD59648491AB4 /* Pods-emvco3ds-ios-app.keepfetching.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/LocalPods-device",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = KEEPFETCHING;
+		};
+		A17613F3221C4ED3003CF465 /* KEEPFETCHING */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590B1EE4F9B98C229EA42C19 /* Pods-emvco3ds-ios-appTests.keepfetching.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = KEEPFETCHING;
+		};
+		A1FF2DFE20D3AD680088DAE4 /* SMOKE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVBSC2LJ5S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = SMOKE;
+		};
+		A1FF2DFF20D3AD680088DAE4 /* SMOKE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D65864A5C3E588D2F806DD /* Pods-emvco3ds-ios-app.smoke.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/emvco3ds-ios-pods/LocalPods-device",
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "emvco3ds-ios-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = SMOKE;
+		};
+		A1FF2E0020D3AD680088DAE4 /* SMOKE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6451AAA0D899829C9B4AD4E9 /* Pods-emvco3ds-ios-appTests.smoke.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MTYU6J6G5F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "emvco3ds-ios-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ul-ts.emvco3ds-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emvco3ds-ios-app.app/emvco3ds-ios-app";
+			};
+			name = SMOKE;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F61DA701EC9D7A9002B5B70 /* Build configuration list for PBXProject "emvco3ds-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F61DA9E1EC9D7A9002B5B70 /* Debug */,
+				0F61DA9F1EC9D7A9002B5B70 /* Release */,
+				0F37CCBC1F38B158003945C6 /* UAT */,
+				A1FF2DFE20D3AD680088DAE4 /* SMOKE */,
+				4E63107E203B194300AB263F /* DEV */,
+				A17613F1221C4ED3003CF465 /* KEEPFETCHING */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0F61DAA01EC9D7A9002B5B70 /* Build configuration list for PBXNativeTarget "emvco3ds-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F61DAA11EC9D7A9002B5B70 /* Debug */,
+				0F61DAA21EC9D7A9002B5B70 /* Release */,
+				0F37CCBD1F38B158003945C6 /* UAT */,
+				A1FF2DFF20D3AD680088DAE4 /* SMOKE */,
+				4E63107F203B194300AB263F /* DEV */,
+				A17613F2221C4ED3003CF465 /* KEEPFETCHING */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0F61DAA31EC9D7A9002B5B70 /* Build configuration list for PBXNativeTarget "emvco3ds-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F61DAA41EC9D7A9002B5B70 /* Debug */,
+				0F61DAA51EC9D7A9002B5B70 /* Release */,
+				0F37CCBE1F38B158003945C6 /* UAT */,
+				A1FF2E0020D3AD680088DAE4 /* SMOKE */,
+				4E631080203B194300AB263F /* DEV */,
+				A17613F3221C4ED3003CF465 /* KEEPFETCHING */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F61DA6D1EC9D7A9002B5B70 /* Project object */;
+}

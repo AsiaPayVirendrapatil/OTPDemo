@@ -1,0 +1,11 @@
+framework module asiapay_3ds {
+  umbrella header "asiapay_3ds.h"
+
+  export *
+  module * { export * }
+}
+
+module asiapay_3ds.Swift {
+    header "asiapay_3ds-Swift.h"
+    requires objc
+}

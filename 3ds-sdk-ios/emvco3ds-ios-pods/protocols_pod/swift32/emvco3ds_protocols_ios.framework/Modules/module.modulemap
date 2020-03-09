@@ -1,0 +1,11 @@
+framework module emvco3ds_protocols_ios {
+  umbrella header "emvco3ds_protocols_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module emvco3ds_protocols_ios.Swift {
+    header "emvco3ds_protocols_ios-Swift.h"
+    requires objc
+}

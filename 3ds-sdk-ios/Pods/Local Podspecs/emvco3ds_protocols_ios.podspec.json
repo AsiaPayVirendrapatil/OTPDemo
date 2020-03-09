@@ -1,0 +1,21 @@
+{
+  "name": "emvco3ds_protocols_ios",
+  "version": "0.1.1.1",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://www.ul-ts.com",
+  "authors": {
+    "WilliamKinaan": "william.kinaan@ul.com"
+  },
+  "summary": "UL iOS 3DS Emvco protocols",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "emvco3ds_protocols_ios.framework.zip"
+  },
+  "ios": {
+    "vendored_frameworks": "emvco3ds_protocols_ios.framework"
+  }
+}

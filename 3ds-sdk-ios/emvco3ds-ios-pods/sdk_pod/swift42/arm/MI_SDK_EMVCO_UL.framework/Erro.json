@@ -1,0 +1,25 @@
+{
+    "type":"object",
+    "properties" : {
+        "messageType" : {"type":"string", "pattern":"^$|Erro"},
+        "messageVersion" : {"type":"string", "pattern":"^$|^\\d.\\d.\\d{1,4}$"},
+        "errorCode" : {"type":"string", "pattern":"^$|^\\d{3}"},
+        "errorComponent" : {"type":"string", "pattern":"^$|^[CSDA]$"},
+        "errorDescription" : {"type":"string", "maxLength": 2048},
+        "errorDetail" : {"type":"string", "maxLength": 2048},
+        "errorMessageType" : {"type":"string", "pattern":"^$|^(AReq|ARes|CReq|CRes|PReq|PRes|RReq|RRes|Erro)$"},
+        "sdkTransID": {
+          "type": "string",
+          "pattern": "^$|^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[1-5][a-fA-F0-9]{3}-[89aAbB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}$"
+        },
+        "threeDSServerTransID": {
+          "type": "string",
+          "pattern": "^$|^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[1-5][a-fA-F0-9]{3}-[89aAbB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}$"
+        },
+        "acsTransID": {
+          "type": "string",
+          "pattern": "^$|^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[1-5][a-fA-F0-9]{3}-[89aAbB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}$"
+        }
+    },
+    "required" : ["messageType","messageVersion","errorCode","errorDescription","errorComponent","errorDetail"]
+}

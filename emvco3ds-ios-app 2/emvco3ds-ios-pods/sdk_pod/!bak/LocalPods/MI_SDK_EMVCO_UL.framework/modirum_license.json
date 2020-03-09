@@ -1,0 +1,13 @@
+{
+"productName" : "MDpay 3DS2 sdk",
+"productVersion" : "1.0.0",
+"issuedDate" : "2019-01-22",
+"licensee" : "UL Compliance Test",
+"expiration" : "never",
+"sdkReferenceNumber" : "3DS_LOA_SDK_PPFU_020100_00007",
+"packageId" : "any",
+"schemes" : ["F000000000","F000000001"],
+"platform" : ["iOS","Android"],
+"features" : ["fallback_1.0.2"],
+"licenseKey" : "YIzy4nwnITuiRXxl3swyN9EQDlbxN2/VpKV5UK/hLqPMKj+7qOu7CkmgutnKv4TCYwog4m1HA6WYyunih7ElKk8IRWhzA+PQ/1Ju9aGU4FWCFAKZ2KuNgvKwOUMyB6zRUeQEf8D0tx/kArgdreUJJO0eUgu/NjMREWNzCpbf78F21ro6KpGmGyQbj6WSpYb2DtEy6gXQUqUnSnc5YQpnFeCEsvxPn/RfWmvf7EwxK4BbgIjF7HRXWro4qIxj6wjnw2hDn0mTPwzciJPwxw+vcuixvmF1AEgrol2eB2fK6dKAPPMgHgYBQ4KKTdNGdICaViV8/KWUrVV18j9G4/mB4g=="
+}

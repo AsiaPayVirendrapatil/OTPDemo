@@ -1,0 +1,32 @@
+{
+    "type":"object",
+    "properties" : {
+        "messageType" : {"type":"string", "pattern":"InitTxRes"},
+        "messageCategory" : {"type":"string", "pattern":"^$|^\\d{2}$"},
+        "messageVersion" : {"type":"string", "pattern":"^$|^\\d.\\d.\\d{1,4}$"},
+        
+        "ARes" : {
+            "type" : "object",
+            "properties" : {
+                "threeDSServerTransID" : {"type":"string", "pattern":".*"},
+                "sdkTransID" : {"type":"string", "pattern":".*"},
+                "transStatus" : {"type":"string", "pattern":"^$|^[YNUACDR]$"},
+                "acsTransID" : {"type":"string", "pattern":".*"},
+                "acsReferenceNumber" : {"type":"string", "pattern":".*"},
+                "acsRenderingType" : {"type":"object",
+                  "properties": {
+                    "acsInterface": {
+                    "type": "string",
+                    "pattern": "^$|^0[1-2]$"
+                    },
+                    "acsUiTemplate": {
+                      "type": "string",
+                      "pattern": "^$|^0[1-5]$"
+                    }}},
+                "authenticationValue" : {"type":"string", "pattern":".*"},
+                "acsSignedContent" : {"type":"string", "pattern":".*"}
+            },
+            "required" : ["threeDSServerTransID","sdkTransID"]
+        }
+    }
+}

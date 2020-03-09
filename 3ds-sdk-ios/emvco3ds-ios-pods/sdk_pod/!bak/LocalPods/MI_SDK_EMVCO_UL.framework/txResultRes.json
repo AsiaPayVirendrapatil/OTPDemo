@@ -1,0 +1,6 @@
+{
+    "type":"object",
+    "properties" : {
+    	  "messageType" : {"type":"string", "pattern":"txResultRes"}
+    }
+}

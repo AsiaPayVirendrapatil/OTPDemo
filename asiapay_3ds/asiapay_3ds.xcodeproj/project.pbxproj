@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370F4BBB22CE00BC00BDECBE /* asiapay_3ds1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B8C22CE00BC00BDECBE /* asiapay_3ds1.swift */; };
+		370F4BBC22CE00BC00BDECBE /* spec_protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B8E22CE00BC00BDECBE /* spec_protocol.swift */; };
+		370F4BBD22CE00BC00BDECBE /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9022CE00BC00BDECBE /* ConfigurationManager.swift */; };
+		370F4BBE22CE00BC00BDECBE /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9122CE00BC00BDECBE /* TransactionManager.swift */; };
+		370F4BBF22CE00BC00BDECBE /* emvco3ds_ios_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F4B9222CE00BC00BDECBE /* emvco3ds_ios_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370F4BC022CE00BC00BDECBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9422CE00BC00BDECBE /* ViewController.swift */; };
+		370F4BC122CE00BC00BDECBE /* AReqEncrytion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9522CE00BC00BDECBE /* AReqEncrytion.swift */; };
+		370F4BC222CE00BC00BDECBE /* isDebugged.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F4B9622CE00BC00BDECBE /* isDebugged.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370F4BC322CE00BC00BDECBE /* UtilExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9722CE00BC00BDECBE /* UtilExtension.swift */; };
+		370F4BC422CE00BC00BDECBE /* CresData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9922CE00BC00BDECBE /* CresData.swift */; };
+		370F4BC522CE00BC00BDECBE /* SingleSelePaymentTem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9A22CE00BC00BDECBE /* SingleSelePaymentTem.swift */; };
+		370F4BC622CE00BC00BDECBE /* ExCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9B22CE00BC00BDECBE /* ExCell.swift */; };
+		370F4BC722CE00BC00BDECBE /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9C22CE00BC00BDECBE /* PaymentView.swift */; };
+		370F4BC822CE00BC00BDECBE /* CReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9D22CE00BC00BDECBE /* CReq.swift */; };
+		370F4BC922CE00BC00BDECBE /* WebhtmlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9E22CE00BC00BDECBE /* WebhtmlView.swift */; };
+		370F4BCA22CE00BC00BDECBE /* ChallengeSeleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4B9F22CE00BC00BDECBE /* ChallengeSeleInfoCell.swift */; };
+		370F4BCB22CE00BC00BDECBE /* IssuerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA022CE00BC00BDECBE /* IssuerImage.swift */; };
+		370F4BCC22CE00BC00BDECBE /* UIChallengeMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370F4BA122CE00BC00BDECBE /* UIChallengeMain.storyboard */; };
+		370F4BCD22CE00BC00BDECBE /* CreqEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA222CE00BC00BDECBE /* CreqEncryption.swift */; };
+		370F4BCE22CE00BC00BDECBE /* isDebugged.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA322CE00BC00BDECBE /* isDebugged.m */; };
+		370F4BCF22CE00BC00BDECBE /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA422CE00BC00BDECBE /* DeviceInfo.swift */; };
+		370F4BD022CE00BC00BDECBE /* asiapay_3ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA522CE00BC00BDECBE /* asiapay_3ds.swift */; };
+		370F4BD122CE00BC00BDECBE /* AbstractNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA822CE00BC00BDECBE /* AbstractNetworkRequest.swift */; };
+		370F4BD222CE00BC00BDECBE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BA922CE00BC00BDECBE /* NetworkManager.swift */; };
+		370F4BD322CE00BC00BDECBE /* RequesterConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BAA22CE00BC00BDECBE /* RequesterConnector.swift */; };
+		370F4BD422CE00BC00BDECBE /* ConnectorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BAC22CE00BC00BDECBE /* ConnectorProtocol.swift */; };
+		370F4BD522CE00BC00BDECBE /* GenericNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BAD22CE00BC00BDECBE /* GenericNetworkProtocol.swift */; };
+		370F4BD622CE00BC00BDECBE /* CardholderNotifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BAE22CE00BC00BDECBE /* CardholderNotifierProtocol.swift */; };
+		370F4BD722CE00BC00BDECBE /* SdkEphemPubKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB122CE00BC00BDECBE /* SdkEphemPubKey.swift */; };
+		370F4BD822CE00BC00BDECBE /* PSrq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB222CE00BC00BDECBE /* PSrq.swift */; };
+		370F4BD922CE00BC00BDECBE /* DeviceRenderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB322CE00BC00BDECBE /* DeviceRenderOptions.swift */; };
+		370F4BDA22CE00BC00BDECBE /* PAReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB422CE00BC00BDECBE /* PAReq.swift */; };
+		370F4BDB22CE00BC00BDECBE /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB522CE00BC00BDECBE /* Phone.swift */; };
+		370F4BDC22CE00BC00BDECBE /* ARes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB722CE00BC00BDECBE /* ARes.swift */; };
+		370F4BDD22CE00BC00BDECBE /* AcsRenderingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BB822CE00BC00BDECBE /* AcsRenderingType.swift */; };
+		370F4BDE22CE00BC00BDECBE /* SDKChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4BBA22CE00BC00BDECBE /* SDKChallengeProtocol.swift */; };
+		37CF3B5122BBA55700344E3C /* asiapay_3ds.h in Headers */ = {isa = PBXBuildFile; fileRef = 37CF3B4F22BBA55700344E3C /* asiapay_3ds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37CF3B5B22BBA5C700344E3C /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3B5722BBA5C700344E3C /* CryptoSwift.framework */; };
+		37CF3B5C22BBA5C700344E3C /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3B5822BBA5C700344E3C /* NVActivityIndicatorView.framework */; };
+		37CF3B5D22BBA5C700344E3C /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3B5922BBA5C700344E3C /* AlamofireObjectMapper.framework */; };
+		37CF3B5E22BBA5C700344E3C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3B5A22BBA5C700344E3C /* ObjectMapper.framework */; };
+		37CF3B6022BBA60000344E3C /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3B5F22BBA60000344E3C /* CommonCrypto.framework */; };
+		37CF3BD122BBA7E100344E3C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF3BD022BBA7E100344E3C /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		370F4B8C22CE00BC00BDECBE /* asiapay_3ds1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asiapay_3ds1.swift; sourceTree = "<group>"; };
+		370F4B8E22CE00BC00BDECBE /* spec_protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spec_protocol.swift; sourceTree = "<group>"; };
+		370F4B9022CE00BC00BDECBE /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		370F4B9122CE00BC00BDECBE /* TransactionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
+		370F4B9222CE00BC00BDECBE /* emvco3ds_ios_framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emvco3ds_ios_framework.h; sourceTree = "<group>"; };
+		370F4B9422CE00BC00BDECBE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		370F4B9522CE00BC00BDECBE /* AReqEncrytion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AReqEncrytion.swift; sourceTree = "<group>"; };
+		370F4B9622CE00BC00BDECBE /* isDebugged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isDebugged.h; sourceTree = "<group>"; };
+		370F4B9722CE00BC00BDECBE /* UtilExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilExtension.swift; sourceTree = "<group>"; };
+		370F4B9922CE00BC00BDECBE /* CresData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CresData.swift; sourceTree = "<group>"; };
+		370F4B9A22CE00BC00BDECBE /* SingleSelePaymentTem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelePaymentTem.swift; sourceTree = "<group>"; };
+		370F4B9B22CE00BC00BDECBE /* ExCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExCell.swift; sourceTree = "<group>"; };
+		370F4B9C22CE00BC00BDECBE /* PaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		370F4B9D22CE00BC00BDECBE /* CReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CReq.swift; sourceTree = "<group>"; };
+		370F4B9E22CE00BC00BDECBE /* WebhtmlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebhtmlView.swift; sourceTree = "<group>"; };
+		370F4B9F22CE00BC00BDECBE /* ChallengeSeleInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeSeleInfoCell.swift; sourceTree = "<group>"; };
+		370F4BA022CE00BC00BDECBE /* IssuerImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuerImage.swift; sourceTree = "<group>"; };
+		370F4BA122CE00BC00BDECBE /* UIChallengeMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIChallengeMain.storyboard; sourceTree = "<group>"; };
+		370F4BA222CE00BC00BDECBE /* CreqEncryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreqEncryption.swift; sourceTree = "<group>"; };
+		370F4BA322CE00BC00BDECBE /* isDebugged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = isDebugged.m; sourceTree = "<group>"; };
+		370F4BA422CE00BC00BDECBE /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		370F4BA522CE00BC00BDECBE /* asiapay_3ds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asiapay_3ds.swift; sourceTree = "<group>"; };
+		370F4BA822CE00BC00BDECBE /* AbstractNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractNetworkRequest.swift; sourceTree = "<group>"; };
+		370F4BA922CE00BC00BDECBE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		370F4BAA22CE00BC00BDECBE /* RequesterConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequesterConnector.swift; sourceTree = "<group>"; };
+		370F4BAC22CE00BC00BDECBE /* ConnectorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectorProtocol.swift; sourceTree = "<group>"; };
+		370F4BAD22CE00BC00BDECBE /* GenericNetworkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericNetworkProtocol.swift; sourceTree = "<group>"; };
+		370F4BAE22CE00BC00BDECBE /* CardholderNotifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardholderNotifierProtocol.swift; sourceTree = "<group>"; };
+		370F4BB122CE00BC00BDECBE /* SdkEphemPubKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkEphemPubKey.swift; sourceTree = "<group>"; };
+		370F4BB222CE00BC00BDECBE /* PSrq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSrq.swift; sourceTree = "<group>"; };
+		370F4BB322CE00BC00BDECBE /* DeviceRenderOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRenderOptions.swift; sourceTree = "<group>"; };
+		370F4BB422CE00BC00BDECBE /* PAReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAReq.swift; sourceTree = "<group>"; };
+		370F4BB522CE00BC00BDECBE /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		370F4BB722CE00BC00BDECBE /* ARes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARes.swift; sourceTree = "<group>"; };
+		370F4BB822CE00BC00BDECBE /* AcsRenderingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcsRenderingType.swift; sourceTree = "<group>"; };
+		370F4BBA22CE00BC00BDECBE /* SDKChallengeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKChallengeProtocol.swift; sourceTree = "<group>"; };
+		37CF3B4C22BBA55700344E3C /* asiapay_3ds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = asiapay_3ds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CF3B4F22BBA55700344E3C /* asiapay_3ds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asiapay_3ds.h; sourceTree = "<group>"; };
+		37CF3B5022BBA55700344E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CF3B5722BBA5C700344E3C /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
+		37CF3B5822BBA5C700344E3C /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		37CF3B5922BBA5C700344E3C /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		37CF3B5A22BBA5C700344E3C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		37CF3B5F22BBA60000344E3C /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		37CF3BD022BBA7E100344E3C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CF3B4922BBA55700344E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CF3B5C22BBA5C700344E3C /* NVActivityIndicatorView.framework in Frameworks */,
+				37CF3BD122BBA7E100344E3C /* Alamofire.framework in Frameworks */,
+				37CF3B5D22BBA5C700344E3C /* AlamofireObjectMapper.framework in Frameworks */,
+				37CF3B5E22BBA5C700344E3C /* ObjectMapper.framework in Frameworks */,
+				37CF3B6022BBA60000344E3C /* CommonCrypto.framework in Frameworks */,
+				37CF3B5B22BBA5C700344E3C /* CryptoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370F4B8A22CE00BC00BDECBE /* 3DS */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B8B22CE00BC00BDECBE /* ui */,
+				370F4B8C22CE00BC00BDECBE /* asiapay_3ds1.swift */,
+				370F4B8D22CE00BC00BDECBE /* spec */,
+				370F4B8F22CE00BC00BDECBE /* utils */,
+				370F4B9222CE00BC00BDECBE /* emvco3ds_ios_framework.h */,
+				370F4B9322CE00BC00BDECBE /* SDK */,
+				370F4BA522CE00BC00BDECBE /* asiapay_3ds.swift */,
+				370F4BA622CE00BC00BDECBE /* data */,
+				370F4BB922CE00BC00BDECBE /* protocols */,
+			);
+			name = 3DS;
+			path = "../../../Documents/Asiapay_3DS Project/Framework Prj/asiapay_3ds/3DS";
+			sourceTree = "<group>";
+		};
+		370F4B8B22CE00BC00BDECBE /* ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		370F4B8D22CE00BC00BDECBE /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B8E22CE00BC00BDECBE /* spec_protocol.swift */,
+			);
+			path = spec;
+			sourceTree = "<group>";
+		};
+		370F4B8F22CE00BC00BDECBE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B9022CE00BC00BDECBE /* ConfigurationManager.swift */,
+				370F4B9122CE00BC00BDECBE /* TransactionManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		370F4B9322CE00BC00BDECBE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B9422CE00BC00BDECBE /* ViewController.swift */,
+				370F4B9522CE00BC00BDECBE /* AReqEncrytion.swift */,
+				370F4B9622CE00BC00BDECBE /* isDebugged.h */,
+				370F4B9722CE00BC00BDECBE /* UtilExtension.swift */,
+				370F4B9822CE00BC00BDECBE /* UIPayment */,
+				370F4BA222CE00BC00BDECBE /* CreqEncryption.swift */,
+				370F4BA322CE00BC00BDECBE /* isDebugged.m */,
+				370F4BA422CE00BC00BDECBE /* DeviceInfo.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		370F4B9822CE00BC00BDECBE /* UIPayment */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B9922CE00BC00BDECBE /* CresData.swift */,
+				370F4B9A22CE00BC00BDECBE /* SingleSelePaymentTem.swift */,
+				370F4B9B22CE00BC00BDECBE /* ExCell.swift */,
+				370F4B9C22CE00BC00BDECBE /* PaymentView.swift */,
+				370F4B9D22CE00BC00BDECBE /* CReq.swift */,
+				370F4B9E22CE00BC00BDECBE /* WebhtmlView.swift */,
+				370F4B9F22CE00BC00BDECBE /* ChallengeSeleInfoCell.swift */,
+				370F4BA022CE00BC00BDECBE /* IssuerImage.swift */,
+				370F4BA122CE00BC00BDECBE /* UIChallengeMain.storyboard */,
+			);
+			path = UIPayment;
+			sourceTree = "<group>";
+		};
+		370F4BA622CE00BC00BDECBE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BA722CE00BC00BDECBE /* networking */,
+				370F4BAB22CE00BC00BDECBE /* protocol */,
+				370F4BAF22CE00BC00BDECBE /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		370F4BA722CE00BC00BDECBE /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BA822CE00BC00BDECBE /* AbstractNetworkRequest.swift */,
+				370F4BA922CE00BC00BDECBE /* NetworkManager.swift */,
+				370F4BAA22CE00BC00BDECBE /* RequesterConnector.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		370F4BAB22CE00BC00BDECBE /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BAC22CE00BC00BDECBE /* ConnectorProtocol.swift */,
+				370F4BAD22CE00BC00BDECBE /* GenericNetworkProtocol.swift */,
+				370F4BAE22CE00BC00BDECBE /* CardholderNotifierProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		370F4BAF22CE00BC00BDECBE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BB022CE00BC00BDECBE /* PAreq */,
+				370F4BB622CE00BC00BDECBE /* ARes */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		370F4BB022CE00BC00BDECBE /* PAreq */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BB122CE00BC00BDECBE /* SdkEphemPubKey.swift */,
+				370F4BB222CE00BC00BDECBE /* PSrq.swift */,
+				370F4BB322CE00BC00BDECBE /* DeviceRenderOptions.swift */,
+				370F4BB422CE00BC00BDECBE /* PAReq.swift */,
+				370F4BB522CE00BC00BDECBE /* Phone.swift */,
+			);
+			path = PAreq;
+			sourceTree = "<group>";
+		};
+		370F4BB622CE00BC00BDECBE /* ARes */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BB722CE00BC00BDECBE /* ARes.swift */,
+				370F4BB822CE00BC00BDECBE /* AcsRenderingType.swift */,
+			);
+			path = ARes;
+			sourceTree = "<group>";
+		};
+		370F4BB922CE00BC00BDECBE /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				370F4BBA22CE00BC00BDECBE /* SDKChallengeProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		37CF3B4222BBA55700344E3C = {
+			isa = PBXGroup;
+			children = (
+				37CF3BD022BBA7E100344E3C /* Alamofire.framework */,
+				37CF3B5F22BBA60000344E3C /* CommonCrypto.framework */,
+				37CF3B5922BBA5C700344E3C /* AlamofireObjectMapper.framework */,
+				37CF3B5722BBA5C700344E3C /* CryptoSwift.framework */,
+				37CF3B5822BBA5C700344E3C /* NVActivityIndicatorView.framework */,
+				37CF3B5A22BBA5C700344E3C /* ObjectMapper.framework */,
+				37CF3B4E22BBA55700344E3C /* asiapay_3ds */,
+				37CF3B4D22BBA55700344E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37CF3B4D22BBA55700344E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37CF3B4C22BBA55700344E3C /* asiapay_3ds.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37CF3B4E22BBA55700344E3C /* asiapay_3ds */ = {
+			isa = PBXGroup;
+			children = (
+				370F4B8A22CE00BC00BDECBE /* 3DS */,
+				37CF3B4F22BBA55700344E3C /* asiapay_3ds.h */,
+				37CF3B5022BBA55700344E3C /* Info.plist */,
+			);
+			path = asiapay_3ds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37CF3B4722BBA55700344E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CF3B5122BBA55700344E3C /* asiapay_3ds.h in Headers */,
+				370F4BC222CE00BC00BDECBE /* isDebugged.h in Headers */,
+				370F4BBF22CE00BC00BDECBE /* emvco3ds_ios_framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37CF3B4B22BBA55700344E3C /* asiapay_3ds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CF3B5422BBA55700344E3C /* Build configuration list for PBXNativeTarget "asiapay_3ds" */;
+			buildPhases = (
+				37CF3B4722BBA55700344E3C /* Headers */,
+				37CF3B4822BBA55700344E3C /* Sources */,
+				37CF3B4922BBA55700344E3C /* Frameworks */,
+				37CF3B4A22BBA55700344E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asiapay_3ds;
+			productName = asiapay_3ds;
+			productReference = 37CF3B4C22BBA55700344E3C /* asiapay_3ds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37CF3B4322BBA55700344E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Virendra patil";
+				TargetAttributes = {
+					37CF3B4B22BBA55700344E3C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 37CF3B4622BBA55700344E3C /* Build configuration list for PBXProject "asiapay_3ds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37CF3B4222BBA55700344E3C;
+			productRefGroup = 37CF3B4D22BBA55700344E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37CF3B4B22BBA55700344E3C /* asiapay_3ds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37CF3B4A22BBA55700344E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370F4BCC22CE00BC00BDECBE /* UIChallengeMain.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37CF3B4822BBA55700344E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370F4BCE22CE00BC00BDECBE /* isDebugged.m in Sources */,
+				370F4BC422CE00BC00BDECBE /* CresData.swift in Sources */,
+				370F4BC722CE00BC00BDECBE /* PaymentView.swift in Sources */,
+				370F4BD222CE00BC00BDECBE /* NetworkManager.swift in Sources */,
+				370F4BD322CE00BC00BDECBE /* RequesterConnector.swift in Sources */,
+				370F4BC122CE00BC00BDECBE /* AReqEncrytion.swift in Sources */,
+				370F4BC522CE00BC00BDECBE /* SingleSelePaymentTem.swift in Sources */,
+				370F4BCA22CE00BC00BDECBE /* ChallengeSeleInfoCell.swift in Sources */,
+				370F4BDE22CE00BC00BDECBE /* SDKChallengeProtocol.swift in Sources */,
+				370F4BDD22CE00BC00BDECBE /* AcsRenderingType.swift in Sources */,
+				370F4BCD22CE00BC00BDECBE /* CreqEncryption.swift in Sources */,
+				370F4BCF22CE00BC00BDECBE /* DeviceInfo.swift in Sources */,
+				370F4BDB22CE00BC00BDECBE /* Phone.swift in Sources */,
+				370F4BC822CE00BC00BDECBE /* CReq.swift in Sources */,
+				370F4BD622CE00BC00BDECBE /* CardholderNotifierProtocol.swift in Sources */,
+				370F4BC922CE00BC00BDECBE /* WebhtmlView.swift in Sources */,
+				370F4BC022CE00BC00BDECBE /* ViewController.swift in Sources */,
+				370F4BBE22CE00BC00BDECBE /* TransactionManager.swift in Sources */,
+				370F4BC322CE00BC00BDECBE /* UtilExtension.swift in Sources */,
+				370F4BD722CE00BC00BDECBE /* SdkEphemPubKey.swift in Sources */,
+				370F4BDC22CE00BC00BDECBE /* ARes.swift in Sources */,
+				370F4BD022CE00BC00BDECBE /* asiapay_3ds.swift in Sources */,
+				370F4BD522CE00BC00BDECBE /* GenericNetworkProtocol.swift in Sources */,
+				370F4BC622CE00BC00BDECBE /* ExCell.swift in Sources */,
+				370F4BD922CE00BC00BDECBE /* DeviceRenderOptions.swift in Sources */,
+				370F4BD422CE00BC00BDECBE /* ConnectorProtocol.swift in Sources */,
+				370F4BDA22CE00BC00BDECBE /* PAReq.swift in Sources */,
+				370F4BBC22CE00BC00BDECBE /* spec_protocol.swift in Sources */,
+				370F4BBB22CE00BC00BDECBE /* asiapay_3ds1.swift in Sources */,
+				370F4BCB22CE00BC00BDECBE /* IssuerImage.swift in Sources */,
+				370F4BD122CE00BC00BDECBE /* AbstractNetworkRequest.swift in Sources */,
+				370F4BBD22CE00BC00BDECBE /* ConfigurationManager.swift in Sources */,
+				370F4BD822CE00BC00BDECBE /* PSrq.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37CF3B5222BBA55700344E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37CF3B5322BBA55700344E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37CF3B5522BBA55700344E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZDNLBDFMG6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = asiapay_3ds/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asiapay.sdklib.asiapay-3ds";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37CF3B5622BBA55700344E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZDNLBDFMG6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = asiapay_3ds/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asiapay.sdklib.asiapay-3ds";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37CF3B4622BBA55700344E3C /* Build configuration list for PBXProject "asiapay_3ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CF3B5222BBA55700344E3C /* Debug */,
+				37CF3B5322BBA55700344E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CF3B5422BBA55700344E3C /* Build configuration list for PBXNativeTarget "asiapay_3ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CF3B5522BBA55700344E3C /* Debug */,
+				37CF3B5622BBA55700344E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37CF3B4322BBA55700344E3C /* Project object */;
+}

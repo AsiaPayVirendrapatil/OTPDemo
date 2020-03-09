@@ -1,0 +1,21 @@
+{
+  "name": "MI_SDK_EMVCO_UL",
+  "version": "0.0.1",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://www.modirum.com",
+  "authors": {
+    "Juha Aaltonen": "juhapekka.aaltonen@modirum.com"
+  },
+  "summary": "Modirum 3DS 2.0 SDK iOS framework for EMVCo (UL)",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "MI_SDK_EMVCO_UL.framework.zip"
+  },
+  "ios": {
+    "vendored_frameworks": "MI_SDK_EMVCO_UL.framework"
+  }
+}

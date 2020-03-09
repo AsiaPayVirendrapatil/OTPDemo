@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["submitAuthenticationLabel"],
+  "dependencies": {
+    "submitAuthenticationLabel": { "anyOf": [
+            { "required": ["challengeInfoHeader"] },
+            { "required": ["challengeInfoLabel"] },
+            { "required": ["challengeInfoText"] }
+            ]
+    }
+  }
+}

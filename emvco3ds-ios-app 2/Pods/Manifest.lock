@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - CryptoSwift (1.0.0)
+  - emvco3ds_protocols_ios (0.1.1.1)
+  - MaterialComponents/AnimationTiming (55.3.0)
+  - MaterialComponents/Buttons (55.3.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (55.3.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (55.3.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (55.3.0)
+  - MaterialComponents/private/KeyboardWatcher (55.3.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (55.3.0)
+  - MaterialComponents/private/Overlay (55.3.0)
+  - MaterialComponents/private/Shapes (55.3.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (55.3.0)
+  - MaterialComponents/ShadowLayer (55.3.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (55.3.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (55.3.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+  - MDFTextAccessibility (1.2.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.4.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireObjectMapper (~> 5.1.0)
+  - CryptoSwift
+  - emvco3ds_protocols_ios (from `emvco3ds-ios-pods/protocols_pod/swift42/protocols.podspec`)
+  - MaterialComponents/Snackbar
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CryptoSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - NVActivityIndicatorView
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  emvco3ds_protocols_ios:
+    :path: emvco3ds-ios-pods/protocols_pod/swift42/protocols.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  emvco3ds_protocols_ios: dd37b58e381c3dbb9b474c818006e00a16d0c65c
+  MaterialComponents: 915f4e844400a35db3ea4c710a9af40aa8bcb093
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+
+PODFILE CHECKSUM: 67b5c1d8126a45507c7537efaae7b50c9372c077
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,38 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'emvco3ds-ios-app.xcworkspace'
+platform :ios, '10.0'
+
+target 'emvco3ds-ios-app' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for emvco3ds-ios-app
+  pod 'Alamofire', '~> 4.4'
+  pod 'ObjectMapper', '~> 2.2'
+  pod 'AlamofireObjectMapper', '~> 4.0'
+  pod 'MaterialComponents/Snackbar'
+  pod 'emvco3ds_protocols_ios',:tags => 'swift3.2', :path => 'emvco3ds-ios-pods/LocalPods/protocols.podspec'
+  
+  target 'emvco3ds-ios-appTests' do
+    inherit! :search_paths
+  end
+
+end
+
+target 'emvco3ds-ios-framework' do
+    project 'emvco3ds-ios-framework/emvco3ds-ios-framework.xcodeproj'
+    
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for emvco3ds-ios-framework
+    pod 'Alamofire', '~> 4.4'
+    pod 'ObjectMapper', '~> 2.2'
+    pod 'AlamofireObjectMapper', '~> 4.0'
+    pod 'emvco3ds_protocols_ios',:tags => 'swift3.2', :path => 'emvco3ds-ios-pods/LocalPods/protocols.podspec'
+    pod 'MaterialComponents/Snackbar'
+    
+  
+    
+end

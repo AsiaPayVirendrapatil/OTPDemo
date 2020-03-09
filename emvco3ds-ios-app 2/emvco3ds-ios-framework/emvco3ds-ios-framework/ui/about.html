@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+        <style rel="stylesheet" type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                padding: 16px;
+            }
+        
+            .top-margin{
+                margin-top:16px;
+            }
+        </style>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="card top-margin">
+            <div class="card-header">Reference app</div>
+            <div class="card-body">
+                <p>
+                The Reference app can be used with any existing or new developed SDK, that meets the SDK requirements (procols).
+                </p>
+                <p>
+                    To ensure you can actually compile and run the app, you need to verify your Xcode version. The latest versions of Xcode (10.x) support Swift 4.2, which is the language used for the SDK and the Reference App. Make sure you download Xcode version 10.x.
+                </p>
+                <p>
+                    For details please see the iOS 3DS Reference App Developers Guide.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card top-margin">
+            <div class="card-header">Reference App integration Layer in the SDK</div>
+            <div class="card-body">
+                <p>
+                    UL provides an SDK sample with the classes needed to do the integration with the Reference App. You will need to implement those in your SDK to have it integrated with the UL 3DS Self Test Platform.
+                </p>
+                <p>
+                    This is the preferred choice for most cases (the alternative is a ‘glue layer’). The actual implementation is a fairly
+                    straightforward process. If needed you can refer to the sample implementation. Comments indicate where you need to add your
+                    implementation specific code.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card top-margin">
+            <div class="card-header">Using a Glue layer in the Reference App</div>
+            <div class="card-body">
+                <p>
+                    UL provides a (non-functional) Demo SDK representing a typical existing SDK implementation (the one provided by UL is in Swift but it could have been in Objective-C as well).
+                </p>
+                <p>
+                    UL also provided a ‘glue’ layer that would translate between the abstract protocol definitions and the actual objects in the Demo SDK. This ‘glue’ layer can also fix minor differences in the way the specification was interpreted. The provided ‘glue’ layer source should be self-explanatory.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card top-margin">
+            <div class="card-header">Configure your Project</div>
+            <div class="card-body">
+                <ul>
+                    <li/>1. Select the scheme for the environment against which you are testing.
+                    <li/>2. In the UL 3DS Self Test Platform at https://3ds.selftestplatform.com, open your project and choose the
+                    option Configuration from the Project menu. On the tab SDK API Key you can find the SDK API Key for your project.
+                    <li/>3. Copy this value and paste it into the .plist file (api_key entry), corresponding with the selected scheme.
+                    <li/>4. You can use an iPhone simulator, however please note that to run the certification test cases you MUST use a real device.
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+framework module MI_SDK_EMVCO_UL {
+  umbrella header "MI_SDK_EMVCO_UL.h"
+
+  export *
+  module * { export * }
+}

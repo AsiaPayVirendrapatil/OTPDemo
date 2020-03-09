@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ras_screenshot_endpoint</key>
+	<string>/referenceappapis/uploadScreenshot</string>
+	<key>ras_delete_all_tc_messages_endpoint</key>
+	<string>/referenceappapis/deleteAllTcMessages</string>
+	<key>ras_notify_test_management_endpoint</key>
+	<string>/referenceappapis/notifyTestManagement</string>
+	<key>ras_upload_screenshot_endpoint</key>
+	<string>/referenceappapis/uploadScreenshot</string>
+	<key>device_info</key>
+	<string>device info</string>
+	<key>three_ds_server_endpoint</key>
+	<string>https://simulator-3ds.selftestplatform.com/{VERSION_VALUE}/3dsServer/</string>
+	<key>sdk_vendor_header_key</key>
+	<string>header</string>
+	<key>sdk_vendor_key_value</key>
+	<string>value</string>
+	<key>api_key</key>
+	<string>11883a3c-c709-478b-9485-bae8e6d22d99</string>
+	<key>ras_fetch_tc_message_endpoint</key>
+	<string>/referenceappapis/fetchTcMessage</string>
+	<key>protocol</key>
+	<string>https</string>
+	<key>rac_ip</key>
+	<string>ras-3ds.selftestplatform.com</string>
+	<key>rac_port</key>
+	<string>443</string>
+	<key>cardholder_endpoint</key>
+	<string>https://simulator-3ds.selftestplatform.com/{VERSION_VALUE}/cardholder/</string>
+	<key>environmentName</key>
+	<string>Release</string>
+</dict>
+</plist>

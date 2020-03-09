@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - emvco3ds_protocols_ios (0.1.1.1)
+  - MaterialComponents/AnimationTiming (55.3.0)
+  - MaterialComponents/Buttons (55.3.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (55.3.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (55.3.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (55.3.0)
+  - MaterialComponents/private/KeyboardWatcher (55.3.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (55.3.0)
+  - MaterialComponents/private/Overlay (55.3.0)
+  - MaterialComponents/private/Shapes (55.3.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (55.3.0)
+  - MaterialComponents/ShadowLayer (55.3.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (55.3.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (55.3.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+  - MDFTextAccessibility (1.2.0)
+  - MI_SDK_EMVCO_UL (0.0.1)
+  - ObjectMapper (2.2.9)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireObjectMapper (~> 4.0)
+  - emvco3ds_protocols_ios (from `emvco3ds-ios-pods/LocalPods/protocols.podspec`)
+  - MaterialComponents/Snackbar
+  - MI_SDK_EMVCO_UL (from `emvco3ds-ios-pods/LocalPods/sdk.podspec`)
+  - ObjectMapper (~> 2.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  emvco3ds_protocols_ios:
+    :path: emvco3ds-ios-pods/LocalPods/protocols.podspec
+    :tags: swift3.2
+  MI_SDK_EMVCO_UL:
+    :path: emvco3ds-ios-pods/LocalPods/sdk.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  emvco3ds_protocols_ios: 9293006fb4dac0652e914d2577616f3a2a3240ff
+  MaterialComponents: 915f4e844400a35db3ea4c710a9af40aa8bcb093
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  MI_SDK_EMVCO_UL: b83e485486315330d2a2a68e70b8e8263c4aba92
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+
+PODFILE CHECKSUM: 8832e61838bdec408db81142789b7c490fff879a
+
+COCOAPODS: 1.5.3

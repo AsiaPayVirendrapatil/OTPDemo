@@ -1,0 +1,67 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'emvco3ds-ios-app.xcworkspace'
+platform :ios, '10.0'
+
+target 'emvco3ds-ios-app' do
+  use_frameworks!
+
+  # NOTE: Current pod for  'Alamofire' is '~> 5.0.0-beta.2'.
+  # It should be used together with an upgrade of 'AlamofireObjectMapper' to 6.0.0
+  # however that raises all kind of issues (Well, it's a beta version of Alamofire currently)
+  # so for now we will use '4.4.' for Alamofire and '5.1.0' for AlamoFireObjectMapper.
+  # Because of this you will see a warning 'Conversion to Swift 4.2 is available' with regards
+  # to 'AlamoFireObjectMapper' after compiling. You can ignore that message for now.
+  
+  # This note applies to the pods for both the app and the app framework
+  
+  # Pods for emvco3ds-ios-app
+  pod 'Alamofire', '~> 4.4'
+  pod 'ObjectMapper', '~> 3.4'
+  pod 'AlamofireObjectMapper', '~> 5.1.0', :inhibit_warnings => true
+  pod 'MaterialComponents/Snackbar'
+  pod 'CryptoSwift'
+  pod 'NVActivityIndicatorView'
+  
+  # By default the SDK and the protocols framework refer to Swift version 4.2
+  pod 'emvco3ds_protocols_ios', :path => 'emvco3ds-ios-pods/protocols_pod/swift42/protocols.podspec'
+
+  target 'emvco3ds-ios-appTests' do
+    inherit! :search_paths
+  end
+
+end
+
+target 'emvco3ds-ios-framework' do
+    project 'emvco3ds-ios-framework/emvco3ds-ios-framework.xcodeproj'
+    use_frameworks!
+    
+    # Pods for emvco3ds-ios-framework
+    pod 'Alamofire', '~> 4.4'
+    pod 'ObjectMapper', '~> 3.4'
+    pod 'AlamofireObjectMapper', '~> 5.1.0', :inhibit_warnings => true
+    pod 'MaterialComponents/Snackbar'
+    pod 'CryptoSwift'
+    pod 'NVActivityIndicatorView'
+    
+     # By default the protocols framework refer to Swift version 4.2
+    pod 'emvco3ds_protocols_ios', :path => 'emvco3ds-ios-pods/protocols_pod/swift42/protocols.podspec'
+    
+end
+
+target 'threedsnew' do
+  project 'emvco3ds-ios-framework/emvco3ds-ios-framework.xcodeproj'
+  use_frameworks!
+  
+  # Pods for emvco3ds-ios-framework
+  pod 'Alamofire', '~> 4.4'
+  pod 'ObjectMapper', '~> 3.4'
+  pod 'AlamofireObjectMapper', '~> 5.1.0', :inhibit_warnings => true
+  pod 'MaterialComponents/Snackbar'
+  pod 'CryptoSwift'
+  pod 'NVActivityIndicatorView'
+  
+  # By default the protocols framework refer to Swift version 4.2
+  pod 'emvco3ds_protocols_ios', :path => 'emvco3ds-ios-pods/protocols_pod/swift42/protocols.podspec'
+  
+end

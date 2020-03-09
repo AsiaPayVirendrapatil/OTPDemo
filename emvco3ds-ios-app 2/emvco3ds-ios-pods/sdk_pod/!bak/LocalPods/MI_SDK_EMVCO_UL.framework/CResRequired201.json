@@ -1,0 +1,4 @@
+{
+  "type": "object",
+  "required": ["messageType", "messageVersion", "sdkTransID", "threeDSServerTransID", "acsTransID", "challengeCompletionInd", "acsCounterAtoS"]
+}

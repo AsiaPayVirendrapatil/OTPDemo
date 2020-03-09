@@ -1,0 +1,350 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ults_Context"
+- "ults_ProgressView"
+- "ults_ConfigParameters"
+- "ults_ButtonType"
+- "ults_Customization"
+- "ults_ButtonCustomization"
+- "ults_ToolbarCustomization"
+- "ults_LabelCustomization"
+- "ults_TextBoxCustomization"
+- "ults_UiCustomization"
+- "ults_AuthenticationRequestParameters"
+- "ults_ChallengeParameters"
+- "ults_Transaction"
+- "ults_ThreeDS2Service"
+- "ults_Severity"
+- "ults_Warning"
+- "ults_CompletionEvent"
+- "ults_ErrorMessage"
+- "ults_ProtocolErrorEvent"
+- "ults_RuntimeErrorEvent"
+- "ults_ChallengeStatusReceiver"
+- "ults_Factory"
+provides-nominal:
+- "14Threedsasiapay12ults_ContextP"
+- "14Threedsasiapay17ults_ProgressViewP"
+- "14Threedsasiapay21ults_ConfigParametersP"
+- "14Threedsasiapay15ults_ButtonTypeO"
+- "14Threedsasiapay18ults_CustomizationP"
+- "14Threedsasiapay24ults_ButtonCustomizationP"
+- "14Threedsasiapay25ults_ToolbarCustomizationP"
+- "14Threedsasiapay23ults_LabelCustomizationP"
+- "14Threedsasiapay25ults_TextBoxCustomizationP"
+- "14Threedsasiapay20ults_UiCustomizationP"
+- "14Threedsasiapay36ults_AuthenticationRequestParametersP"
+- "14Threedsasiapay24ults_ChallengeParametersP"
+- "14Threedsasiapay16ults_TransactionP"
+- "14Threedsasiapay20ults_ThreeDS2ServiceP"
+- "14Threedsasiapay13ults_SeverityO"
+- "14Threedsasiapay12ults_WarningP"
+- "14Threedsasiapay20ults_CompletionEventP"
+- "14Threedsasiapay17ults_ErrorMessageP"
+- "14Threedsasiapay23ults_ProtocolErrorEventP"
+- "14Threedsasiapay22ults_RuntimeErrorEventP"
+- "14Threedsasiapay28ults_ChallengeStatusReceiverP"
+- "14Threedsasiapay12ults_FactoryP"
+provides-member:
+- ["14Threedsasiapay12ults_ContextP", ""]
+- ["14Threedsasiapay17ults_ProgressViewP", ""]
+- ["14Threedsasiapay21ults_ConfigParametersP", ""]
+- ["14Threedsasiapay15ults_ButtonTypeO", ""]
+- ["14Threedsasiapay18ults_CustomizationP", ""]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", ""]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", ""]
+- ["14Threedsasiapay23ults_LabelCustomizationP", ""]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", ""]
+- ["14Threedsasiapay20ults_UiCustomizationP", ""]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", ""]
+- ["14Threedsasiapay24ults_ChallengeParametersP", ""]
+- ["14Threedsasiapay16ults_TransactionP", ""]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", ""]
+- ["14Threedsasiapay13ults_SeverityO", ""]
+- ["14Threedsasiapay12ults_WarningP", ""]
+- ["14Threedsasiapay20ults_CompletionEventP", ""]
+- ["14Threedsasiapay17ults_ErrorMessageP", ""]
+- ["14Threedsasiapay23ults_ProtocolErrorEventP", ""]
+- ["14Threedsasiapay22ults_RuntimeErrorEventP", ""]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", ""]
+- ["14Threedsasiapay12ults_FactoryP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "ults_AuthenticationRequestParameters"
+- "ults_ButtonCustomization"
+- "ults_ButtonType"
+- "ults_ChallengeParameters"
+- "ults_ChallengeStatusReceiver"
+- "ults_CompletionEvent"
+- "ults_ConfigParameters"
+- "ults_Context"
+- "ults_Customization"
+- "ults_ErrorMessage"
+- "ults_Factory"
+- "ults_LabelCustomization"
+- "ults_ProgressView"
+- "ults_ProtocolErrorEvent"
+- "ults_RuntimeErrorEvent"
+- "ults_Severity"
+- "ults_TextBoxCustomization"
+- "ults_ThreeDS2Service"
+- "ults_ToolbarCustomization"
+- "ults_Transaction"
+- "ults_UiCustomization"
+- "ults_Warning"
+depends-member:
+- ["SQ", ""]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SH", ""]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "String"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getDeviceData"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getMessageVersion"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getSDKAppID"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getSDKEphemeralPublicKey"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getSDKReferenceNumber"]
+- ["14Threedsasiapay36ults_AuthenticationRequestParametersP", "getSDKTransactionID"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "Int"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "String"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "getBackgroundColor"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "getCornerRadius"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "setBackgroundColor"]
+- ["14Threedsasiapay24ults_ButtonCustomizationP", "setCornerRadius"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "CANCEL"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "CONTINUE"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "NEXT"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "RESEND"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "SUBMIT"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "__derived_enum_equals"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "deinit"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "hash"]
+- ["14Threedsasiapay15ults_ButtonTypeO", "hashValue"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "String"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "get3DSServerTransactionID"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "getAcsRefNumber"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "getAcsSignedContent"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "getAcsTransactionID"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "getThreeDSRequestorAppURL"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "set3DSServerTransactionID"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "setAcsRefNumber"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "setAcsSignedContent"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "setAcsTransactionID"]
+- ["14Threedsasiapay24ults_ChallengeParametersP", "setThreeDSRequestorAppURL"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "cancelled"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "completed"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "protocolError"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "runtimeError"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "timedout"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "ults_CompletionEvent"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "ults_ProtocolErrorEvent"]
+- ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "ults_RuntimeErrorEvent"]
+- ["14Threedsasiapay20ults_CompletionEventP", "String"]
+- ["14Threedsasiapay20ults_CompletionEventP", "getSDKTransactionID"]
+- ["14Threedsasiapay20ults_CompletionEventP", "getTransactionStatus"]
+- ["14Threedsasiapay21ults_ConfigParametersP", "String"]
+- ["14Threedsasiapay21ults_ConfigParametersP", "addParam"]
+- ["14Threedsasiapay21ults_ConfigParametersP", "getParamValue"]
+- ["14Threedsasiapay21ults_ConfigParametersP", "removeParam"]
+- ["14Threedsasiapay18ults_CustomizationP", "Int"]
+- ["14Threedsasiapay18ults_CustomizationP", "String"]
+- ["14Threedsasiapay18ults_CustomizationP", ""]
+- ["14Threedsasiapay18ults_CustomizationP", "getTextColor"]
+- ["14Threedsasiapay18ults_CustomizationP", "getTextFontName"]
+- ["14Threedsasiapay18ults_CustomizationP", "getTextFontSize"]
+- ["14Threedsasiapay18ults_CustomizationP", "setTextColor"]
+- ["14Threedsasiapay18ults_CustomizationP", "setTextFontName"]
+- ["14Threedsasiapay18ults_CustomizationP", "setTextFontSize"]
+- ["14Threedsasiapay17ults_ErrorMessageP", "String"]
+- ["14Threedsasiapay17ults_ErrorMessageP", "getErrorCode"]
+- ["14Threedsasiapay17ults_ErrorMessageP", "getErrorDescription"]
+- ["14Threedsasiapay17ults_ErrorMessageP", "getErrorDetails"]
+- ["14Threedsasiapay17ults_ErrorMessageP", "getTransactionID"]
+- ["14Threedsasiapay12ults_FactoryP", "String"]
+- ["14Threedsasiapay12ults_FactoryP", "newAuthenticationRequestParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "newChallengeParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "newCompletionEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "newConfigParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "newErrorMessage"]
+- ["14Threedsasiapay12ults_FactoryP", "newProtolErrorEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "newRuntimeErrorEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "newThreeDS2Service"]
+- ["14Threedsasiapay12ults_FactoryP", "newToolbarCustomization"]
+- ["14Threedsasiapay12ults_FactoryP", "newUiCustomization"]
+- ["14Threedsasiapay12ults_FactoryP", "newWarning"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_AuthenticationRequestParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ChallengeParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_CompletionEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ConfigParameters"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ErrorMessage"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ProtocolErrorEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_RuntimeErrorEvent"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_Severity"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ThreeDS2Service"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_ToolbarCustomization"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_UiCustomization"]
+- ["14Threedsasiapay12ults_FactoryP", "ults_Warning"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "Int"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "String"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "getHeadingTextColor"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "getHeadingTextFontName"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "getHeadingTextFontSize"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "setHeadingTextColor"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "setHeadingTextFontName"]
+- ["14Threedsasiapay23ults_LabelCustomizationP", "setHeadingTextFontSize"]
+- ["14Threedsasiapay17ults_ProgressViewP", "close"]
+- ["14Threedsasiapay17ults_ProgressViewP", "show"]
+- ["14Threedsasiapay23ults_ProtocolErrorEventP", "String"]
+- ["14Threedsasiapay23ults_ProtocolErrorEventP", "getErrorMessage"]
+- ["14Threedsasiapay23ults_ProtocolErrorEventP", "getSDKTransactionID"]
+- ["14Threedsasiapay23ults_ProtocolErrorEventP", "ults_ErrorMessage"]
+- ["14Threedsasiapay22ults_RuntimeErrorEventP", "String"]
+- ["14Threedsasiapay22ults_RuntimeErrorEventP", "getErrorCode"]
+- ["14Threedsasiapay22ults_RuntimeErrorEventP", "getErrorMessage"]
+- ["14Threedsasiapay13ults_SeverityO", "HIGH"]
+- ["14Threedsasiapay13ults_SeverityO", "LOW"]
+- ["14Threedsasiapay13ults_SeverityO", "MEDIUM"]
+- ["14Threedsasiapay13ults_SeverityO", "__derived_enum_equals"]
+- ["14Threedsasiapay13ults_SeverityO", "deinit"]
+- ["14Threedsasiapay13ults_SeverityO", "hash"]
+- ["14Threedsasiapay13ults_SeverityO", "hashValue"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "Int"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "String"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "getBorderColor"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "getBorderWidth"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "getCornerRadius"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "setBorderColor"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "setBorderWidth"]
+- ["14Threedsasiapay25ults_TextBoxCustomizationP", "setCornerRadius"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "Array"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "String"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "cleanup"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "createTransaction"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "getSDKVersion"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "getWarnings"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "initialize"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "ults_ConfigParameters"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "ults_Context"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "ults_Transaction"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "ults_UiCustomization"]
+- ["14Threedsasiapay20ults_ThreeDS2ServiceP", "ults_Warning"]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", "String"]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", "getBackgroundColor"]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", "getHeaderText"]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", "setBackgroundColor"]
+- ["14Threedsasiapay25ults_ToolbarCustomizationP", "setHeaderText"]
+- ["14Threedsasiapay16ults_TransactionP", "Int"]
+- ["14Threedsasiapay16ults_TransactionP", "close"]
+- ["14Threedsasiapay16ults_TransactionP", "doChallenge"]
+- ["14Threedsasiapay16ults_TransactionP", "getAuthenticationRequestParameters"]
+- ["14Threedsasiapay16ults_TransactionP", "getProgressView"]
+- ["14Threedsasiapay16ults_TransactionP", "ults_AuthenticationRequestParameters"]
+- ["14Threedsasiapay16ults_TransactionP", "ults_ChallengeParameters"]
+- ["14Threedsasiapay16ults_TransactionP", "ults_ChallengeStatusReceiver"]
+- ["14Threedsasiapay16ults_TransactionP", "ults_Context"]
+- ["14Threedsasiapay16ults_TransactionP", "ults_ProgressView"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "String"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "getButtonCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "getLabelCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "getTextBoxCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "getToolbarCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "setButtonCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "setLabelCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "setTextBoxCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "setToolbarCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "ults_ButtonCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "ults_ButtonType"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "ults_LabelCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "ults_TextBoxCustomization"]
+- ["14Threedsasiapay20ults_UiCustomizationP", "ults_ToolbarCustomization"]
+- ["14Threedsasiapay12ults_WarningP", "String"]
+- ["14Threedsasiapay12ults_WarningP", "getID"]
+- ["14Threedsasiapay12ults_WarningP", "getMessage"]
+- ["14Threedsasiapay12ults_WarningP", "getSeverity"]
+- ["14Threedsasiapay12ults_WarningP", "ults_Severity"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "14Threedsasiapay36ults_AuthenticationRequestParametersP"
+- "14Threedsasiapay24ults_ButtonCustomizationP"
+- "14Threedsasiapay15ults_ButtonTypeO"
+- "14Threedsasiapay24ults_ChallengeParametersP"
+- "14Threedsasiapay28ults_ChallengeStatusReceiverP"
+- "14Threedsasiapay20ults_CompletionEventP"
+- "14Threedsasiapay21ults_ConfigParametersP"
+- "14Threedsasiapay18ults_CustomizationP"
+- "14Threedsasiapay17ults_ErrorMessageP"
+- "14Threedsasiapay12ults_FactoryP"
+- "14Threedsasiapay23ults_LabelCustomizationP"
+- "14Threedsasiapay17ults_ProgressViewP"
+- "14Threedsasiapay23ults_ProtocolErrorEventP"
+- "14Threedsasiapay22ults_RuntimeErrorEventP"
+- "14Threedsasiapay13ults_SeverityO"
+- "14Threedsasiapay25ults_TextBoxCustomizationP"
+- "14Threedsasiapay20ults_ThreeDS2ServiceP"
+- "14Threedsasiapay25ults_ToolbarCustomizationP"
+- "14Threedsasiapay16ults_TransactionP"
+- "14Threedsasiapay20ults_UiCustomizationP"
+- "14Threedsasiapay12ults_WarningP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/CryptoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/SDK/isDebugged.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/Threedsasiapay/Threedsasiapay.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/build/Threedsasiapay.build/Debug-iphonesimulator/Threedsasiapay.build/unextended-module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AdSupport.framework/Headers/AdSupport.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "64571867156db078e45183c2b0bf040f"

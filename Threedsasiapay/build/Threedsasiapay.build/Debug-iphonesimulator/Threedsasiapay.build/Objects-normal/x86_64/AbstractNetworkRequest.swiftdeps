@@ -1,0 +1,805 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractNetworkRequest"
+provides-nominal:
+- "14Threedsasiapay22AbstractNetworkRequestC"
+provides-member:
+- ["14Threedsasiapay22AbstractNetworkRequestC", ""]
+provides-dynamic-lookup:
+- "abstractOnResult"
+- "abstractOnSuccess"
+- "delete"
+- "handleErrorIfAny"
+- "handleResponse"
+- "networkManager"
+- "post"
+- "preconditionWarning"
+- "showResponse"
+- "showResponseCode"
+depends-top-level:
+- !private "!="
+- !private "..<"
+- !private "=="
+- !private ">"
+- !private "APICall"
+- "AbstractNetworkRequest"
+- !private "Alamofire"
+- "AssignmentPrecedence"
+- !private "Cres"
+- "Data"
+- "DataResponse"
+- "DefaultDataResponse"
+- "Error"
+- !private "ErrorCReq"
+- !private "ErrorMessage"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPURLResponse"
+- "Int"
+- !private "IntegerLiteralType"
+- "Mappable"
+- "NSObject"
+- "NetworkManager"
+- !private "ProtocolErrorEvent"
+- !private "RuntimeErrorEvent"
+- "String"
+- "StringLiteralType"
+- "Transaction"
+- "UIViewController"
+- "URL"
+- !private "URLEncoding"
+- !private "deviceInfo"
+- !private "print"
+- "ults_ChallengeParameters"
+- "ults_ChallengeStatusReceiver"
+- !private "||"
+depends-member:
+- !private ["14Threedsasiapay7APICallC", "postError"]
+- !private ["14Threedsasiapay7APICallC", "shared"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "APICall"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "Alamofire"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "Cres"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "Data"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "DataResponse"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "DefaultDataResponse"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "Error"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "ErrorCReq"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "ErrorMessage"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "HTTPHeaders"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "HTTPURLResponse"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "Int"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "Mappable"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "NetworkManager"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "ProtocolErrorEvent"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "RuntimeErrorEvent"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "String"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "Transaction"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "UIViewController"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "URL"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "URLEncoding"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "abstractOnError"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "abstractOnResult"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "abstractOnSuccess"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "acsURL"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "cUI"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "challengeParameters"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "challengeStatusReceiver"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "delete"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "deviceInfo"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "get"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "handleDefaultSucessIfAny"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "handleErrorIfAny"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "handleResponse"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "handleSuccessIfAny"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "init"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "networkManager"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "post"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "preconditionWarning"]
+- !private ["14Threedsasiapay22AbstractNetworkRequestC", "print"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "showResponse"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "showResponse1"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "showResponseCode"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "transation"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "ults_ChallengeParameters"]
+- ["14Threedsasiapay22AbstractNetworkRequestC", "ults_ChallengeStatusReceiver"]
+- !private ["SK", "Encoding"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So25CLLocationManagerDelegateP", "sdkTransactionID"]
+- !private ["So25CLLocationManagerDelegateP", "sharedDeviceInfo"]
+- !private ["s7CVarArgP", "APICall"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "Cres"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "ErrorCReq"]
+- !private ["s7CVarArgP", "ErrorMessage"]
+- ["s7CVarArgP", "NetworkManager"]
+- !private ["s7CVarArgP", "ProtocolErrorEvent"]
+- !private ["s7CVarArgP", "RuntimeErrorEvent"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URLEncoding"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "abstractOnError"]
+- !private ["s7CVarArgP", "abstractOnResult"]
+- !private ["s7CVarArgP", "abstractOnSuccess"]
+- !private ["s7CVarArgP", "acsURL"]
+- !private ["s7CVarArgP", "cUI"]
+- !private ["s7CVarArgP", "challengeParameters"]
+- !private ["s7CVarArgP", "challengeStatusReceiver"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "deviceInfo"]
+- !private ["s7CVarArgP", "handleDefaultSucessIfAny"]
+- !private ["s7CVarArgP", "handleErrorIfAny"]
+- !private ["s7CVarArgP", "handleResponse"]
+- !private ["s7CVarArgP", "handleSuccessIfAny"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "networkManager"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sdkTransactionID"]
+- !private ["s7CVarArgP", "sessionManager"]
+- !private ["s7CVarArgP", "sharedDeviceInfo"]
+- !private ["s7CVarArgP", "showResponse"]
+- !private ["s7CVarArgP", "showResponse1"]
+- !private ["s7CVarArgP", "showResponseCode"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "toJson"]
+- !private ["s7CVarArgP", "transation"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["SL", "Encoding"]
+- !private ["SL", "data"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["14Threedsasiapay4CresC", "SdkCounterStoA"]
+- !private ["14Threedsasiapay4CresC", "decodeCres"]
+- !private ["14Threedsasiapay4CresC", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "APICall"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "Cres"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "ErrorCReq"]
+- !private ["s28CustomDebugStringConvertibleP", "ErrorMessage"]
+- ["s28CustomDebugStringConvertibleP", "NetworkManager"]
+- !private ["s28CustomDebugStringConvertibleP", "ProtocolErrorEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "RuntimeErrorEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URLEncoding"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abstractOnError"]
+- !private ["s28CustomDebugStringConvertibleP", "abstractOnResult"]
+- !private ["s28CustomDebugStringConvertibleP", "abstractOnSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "acsURL"]
+- !private ["s28CustomDebugStringConvertibleP", "cUI"]
+- !private ["s28CustomDebugStringConvertibleP", "challengeParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "challengeStatusReceiver"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "handleDefaultSucessIfAny"]
+- !private ["s28CustomDebugStringConvertibleP", "handleErrorIfAny"]
+- !private ["s28CustomDebugStringConvertibleP", "handleResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "handleSuccessIfAny"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "networkManager"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "requestDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "responseObject"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "sdkTransactionID"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionManager"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedDeviceInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "showResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "showResponse1"]
+- !private ["s28CustomDebugStringConvertibleP", "showResponseCode"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "toJson"]
+- !private ["s28CustomDebugStringConvertibleP", "transation"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "data"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "APICall"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "Cres"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "ErrorCReq"]
+- !private ["s23CustomStringConvertibleP", "ErrorMessage"]
+- ["s23CustomStringConvertibleP", "NetworkManager"]
+- !private ["s23CustomStringConvertibleP", "ProtocolErrorEvent"]
+- !private ["s23CustomStringConvertibleP", "RuntimeErrorEvent"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URLEncoding"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "abstractOnError"]
+- !private ["s23CustomStringConvertibleP", "abstractOnResult"]
+- !private ["s23CustomStringConvertibleP", "abstractOnSuccess"]
+- !private ["s23CustomStringConvertibleP", "acsURL"]
+- !private ["s23CustomStringConvertibleP", "cUI"]
+- !private ["s23CustomStringConvertibleP", "challengeParameters"]
+- !private ["s23CustomStringConvertibleP", "challengeStatusReceiver"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "deviceInfo"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "handleDefaultSucessIfAny"]
+- !private ["s23CustomStringConvertibleP", "handleErrorIfAny"]
+- !private ["s23CustomStringConvertibleP", "handleResponse"]
+- !private ["s23CustomStringConvertibleP", "handleSuccessIfAny"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "networkManager"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "requestDuration"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "responseObject"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "sdkTransactionID"]
+- !private ["s23CustomStringConvertibleP", "sessionManager"]
+- !private ["s23CustomStringConvertibleP", "sharedDeviceInfo"]
+- !private ["s23CustomStringConvertibleP", "showResponse"]
+- !private ["s23CustomStringConvertibleP", "showResponse1"]
+- !private ["s23CustomStringConvertibleP", "showResponseCode"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "toJson"]
+- !private ["s23CustomStringConvertibleP", "transation"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire11DataRequestC", "responseObject"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "error"]
+- !private ["9Alamofire12DataResponseV", "response"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "debugDescription"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["9Alamofire19DefaultDataResponseV", "data"]
+- !private ["9Alamofire19DefaultDataResponseV", "error"]
+- !private ["9Alamofire19DefaultDataResponseV", "response"]
+- !private ["9Alamofire19DefaultDataResponseV", "timeline"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- !private ["SE", "debugDescription"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "APICall"]
+- !private ["SQ", "Alamofire"]
+- !private ["SQ", "Cres"]
+- !private ["SQ", "Encoding"]
+- !private ["SQ", "ErrorCReq"]
+- !private ["SQ", "ErrorMessage"]
+- ["SQ", "NetworkManager"]
+- !private ["SQ", "ProtocolErrorEvent"]
+- !private ["SQ", "RuntimeErrorEvent"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URLEncoding"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "abstractOnError"]
+- !private ["SQ", "abstractOnResult"]
+- !private ["SQ", "abstractOnSuccess"]
+- !private ["SQ", "acsURL"]
+- !private ["SQ", "cUI"]
+- !private ["SQ", "challengeParameters"]
+- !private ["SQ", "challengeStatusReceiver"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "deviceInfo"]
+- !private ["SQ", "handleDefaultSucessIfAny"]
+- !private ["SQ", "handleErrorIfAny"]
+- !private ["SQ", "handleResponse"]
+- !private ["SQ", "handleSuccessIfAny"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "networkManager"]
+- !private ["SQ", "post"]
+- !private ["SQ", "print"]
+- !private ["SQ", "sdkTransactionID"]
+- !private ["SQ", "sessionManager"]
+- !private ["SQ", "sharedDeviceInfo"]
+- !private ["SQ", "showResponse"]
+- !private ["SQ", "showResponse1"]
+- !private ["SQ", "showResponseCode"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "toJson"]
+- !private ["SQ", "transation"]
+- !private ["SQ", "utf8"]
+- !private ["14Threedsasiapay9ErrorCReqC", "init"]
+- !private ["14Threedsasiapay9ErrorCReqC", "init"]
+- !private ["14Threedsasiapay9ErrorCReqC", "toJson"]
+- !private ["14Threedsasiapay12ErrorMessageC", "init"]
+- !private ["14Threedsasiapay12ErrorMessageC", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "debugDescription"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9Alamofire10HTTPMethodO", "delete"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "APICall"]
+- !private ["SH", "Alamofire"]
+- !private ["SH", "Cres"]
+- !private ["SH", "Encoding"]
+- !private ["SH", "ErrorCReq"]
+- !private ["SH", "ErrorMessage"]
+- ["SH", "NetworkManager"]
+- !private ["SH", "ProtocolErrorEvent"]
+- !private ["SH", "RuntimeErrorEvent"]
+- !private ["SH", "String"]
+- !private ["SH", "URLEncoding"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "abstractOnError"]
+- !private ["SH", "abstractOnResult"]
+- !private ["SH", "abstractOnSuccess"]
+- !private ["SH", "acsURL"]
+- !private ["SH", "cUI"]
+- !private ["SH", "challengeParameters"]
+- !private ["SH", "challengeStatusReceiver"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "debugDescription"]
+- !private ["SH", "delete"]
+- !private ["SH", "deviceInfo"]
+- !private ["SH", "handleDefaultSucessIfAny"]
+- !private ["SH", "handleErrorIfAny"]
+- !private ["SH", "handleResponse"]
+- !private ["SH", "handleSuccessIfAny"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "networkManager"]
+- !private ["SH", "post"]
+- !private ["SH", "print"]
+- !private ["SH", "sdkTransactionID"]
+- !private ["SH", "sessionManager"]
+- !private ["SH", "sharedDeviceInfo"]
+- !private ["SH", "showResponse"]
+- !private ["SH", "showResponse1"]
+- !private ["SH", "showResponseCode"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "toJson"]
+- !private ["SH", "transation"]
+- !private ["SH", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "data"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "APICall"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "Cres"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DataResponse"]
+- ["So8NSObjectC", "DefaultDataResponse"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "ErrorCReq"]
+- !private ["So8NSObjectC", "ErrorMessage"]
+- ["So8NSObjectC", "HTTPHeaders"]
+- ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Mappable"]
+- ["So8NSObjectC", "NetworkManager"]
+- !private ["So8NSObjectC", "ProtocolErrorEvent"]
+- !private ["So8NSObjectC", "RuntimeErrorEvent"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Transaction"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLEncoding"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "abstractOnError"]
+- ["So8NSObjectC", "abstractOnResult"]
+- ["So8NSObjectC", "abstractOnSuccess"]
+- ["So8NSObjectC", "acsURL"]
+- ["So8NSObjectC", "cUI"]
+- ["So8NSObjectC", "challengeParameters"]
+- ["So8NSObjectC", "challengeStatusReceiver"]
+- !private ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "deviceInfo"]
+- ["So8NSObjectC", "get"]
+- ["So8NSObjectC", "handleDefaultSucessIfAny"]
+- ["So8NSObjectC", "handleErrorIfAny"]
+- ["So8NSObjectC", "handleResponse"]
+- ["So8NSObjectC", "handleSuccessIfAny"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "networkManager"]
+- ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "preconditionWarning"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "sdkTransactionID"]
+- !private ["So8NSObjectC", "sessionManager"]
+- !private ["So8NSObjectC", "sharedDeviceInfo"]
+- ["So8NSObjectC", "showResponse"]
+- ["So8NSObjectC", "showResponse1"]
+- ["So8NSObjectC", "showResponseCode"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "toJson"]
+- ["So8NSObjectC", "transation"]
+- ["So8NSObjectC", "ults_ChallengeParameters"]
+- ["So8NSObjectC", "ults_ChallengeStatusReceiver"]
+- !private ["So8NSObjectP", "APICall"]
+- !private ["So8NSObjectP", "Alamofire"]
+- !private ["So8NSObjectP", "Cres"]
+- !private ["So8NSObjectP", "ErrorCReq"]
+- !private ["So8NSObjectP", "ErrorMessage"]
+- ["So8NSObjectP", "NetworkManager"]
+- !private ["So8NSObjectP", "ProtocolErrorEvent"]
+- !private ["So8NSObjectP", "RuntimeErrorEvent"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "URLEncoding"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "abstractOnError"]
+- !private ["So8NSObjectP", "abstractOnResult"]
+- !private ["So8NSObjectP", "abstractOnSuccess"]
+- !private ["So8NSObjectP", "acsURL"]
+- !private ["So8NSObjectP", "cUI"]
+- !private ["So8NSObjectP", "challengeParameters"]
+- !private ["So8NSObjectP", "challengeStatusReceiver"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "deviceInfo"]
+- !private ["So8NSObjectP", "handleDefaultSucessIfAny"]
+- !private ["So8NSObjectP", "handleErrorIfAny"]
+- !private ["So8NSObjectP", "handleResponse"]
+- !private ["So8NSObjectP", "handleSuccessIfAny"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "networkManager"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "sdkTransactionID"]
+- !private ["So8NSObjectP", "sessionManager"]
+- !private ["So8NSObjectP", "sharedDeviceInfo"]
+- !private ["So8NSObjectP", "showResponse"]
+- !private ["So8NSObjectP", "showResponse1"]
+- !private ["So8NSObjectP", "showResponseCode"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "toJson"]
+- !private ["So8NSObjectP", "transation"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "data"]
+- ["14Threedsasiapay14NetworkManagerC", "init"]
+- !private ["14Threedsasiapay14NetworkManagerC", "sessionManager"]
+- !private ["Sq", "debugDescription"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["14Threedsasiapay18ProtocolErrorEventC", "deinit"]
+- !private ["14Threedsasiapay18ProtocolErrorEventC", "init"]
+- !private ["14Threedsasiapay18ProtocolErrorEventC", "init"]
+- !private ["Sk", "count"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "delete"]
+- !private ["SY", "post"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "responseObject"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "error"]
+- !private ["9Alamofire8ResponseP", "response"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire8ResponseP", "timeline"]
+- !private ["9Alamofire6ResultO", "value"]
+- !private ["14Threedsasiapay17RuntimeErrorEventC", "deinit"]
+- !private ["14Threedsasiapay17RuntimeErrorEventC", "init"]
+- !private ["14Threedsasiapay17RuntimeErrorEventC", "init"]
+- !private ["ST", "Encoding"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["9Alamofire14SessionManagerC", "request"]
+- !private ["9Alamofire14SessionManagerC", "upload"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "data"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "data"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "data"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "data"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire8TimelineV", "requestDuration"]
+- !private ["14Threedsasiapay11TransactionC", "challengeNo"]
+- !private ["14Threedsasiapay11TransactionC", "close"]
+- !private ["14Threedsasiapay11TransactionC", "deinit"]
+- !private ["9Alamofire14URLConvertibleP", "Encoding"]
+- !private ["9Alamofire14URLConvertibleP", "data"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire11URLEncodingV", "default"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["9Alamofire13UploadRequestC", "response"]
+- !private ["9Alamofire13UploadRequestC", "responseObject"]
+- !private ["9Alamofire13UploadRequestC", "validate"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "data"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "data"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "APICall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Cres"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ErrorCReq"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ErrorMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NetworkManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProtocolErrorEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RuntimeErrorEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLEncoding"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abstractOnError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abstractOnResult"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abstractOnSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "acsURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "challengeParameters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "challengeStatusReceiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleDefaultSucessIfAny"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleErrorIfAny"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleSuccessIfAny"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sdkTransactionID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedDeviceInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showResponse1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showResponseCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toJson"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transation"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "Encoding"]
+- !private ["s16_SwiftStringViewP", "data"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["14Threedsasiapay10deviceInfoC", "sdkTransactionID"]
+- !private ["14Threedsasiapay10deviceInfoC", "sharedDeviceInfo"]
+- !private ["14Threedsasiapay24ults_ChallengeParametersP", "get3DSServerTransactionID"]
+- !private ["14Threedsasiapay24ults_ChallengeParametersP", "getAcsTransactionID"]
+- !private ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "protocolError"]
+- !private ["14Threedsasiapay28ults_ChallengeStatusReceiverP", "runtimeError"]
+- !private ["14Threedsasiapay17ults_ErrorMessageP", "init"]
+- !private ["14Threedsasiapay17ults_ErrorMessageP", "init"]
+- !private ["14Threedsasiapay23ults_ProtocolErrorEventP", "init"]
+- !private ["14Threedsasiapay23ults_ProtocolErrorEventP", "init"]
+- !private ["14Threedsasiapay22ults_RuntimeErrorEventP", "init"]
+- !private ["14Threedsasiapay22ults_RuntimeErrorEventP", "init"]
+- !private ["14Threedsasiapay16ults_TransactionP", "challengeNo"]
+- !private ["14Threedsasiapay16ults_TransactionP", "close"]
+depends-nominal:
+- !private "14Threedsasiapay7APICallC"
+- "14Threedsasiapay22AbstractNetworkRequestC"
+- "SK"
+- !private "Sb"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "14Threedsasiapay4CresC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "Se"
+- !private "9Alamofire19DefaultDataResponseV"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "14Threedsasiapay9ErrorCReqC"
+- !private "14Threedsasiapay12ErrorMessageC"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "14Threedsasiapay14NetworkManagerC"
+- !private "Sq"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "14Threedsasiapay18ProtocolErrorEventC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- !private "14Threedsasiapay17RuntimeErrorEventC"
+- "ST"
+- !private "9Alamofire14SessionManagerC"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "9Alamofire8TimelineV"
+- !private "14Threedsasiapay11TransactionC"
+- "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "So13NSURLResponseC"
+- !private "9Alamofire13UploadRequestC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- !private "14Threedsasiapay10deviceInfoC"
+- !private "14Threedsasiapay24ults_ChallengeParametersP"
+- !private "14Threedsasiapay28ults_ChallengeStatusReceiverP"
+- !private "14Threedsasiapay17ults_ErrorMessageP"
+- !private "14Threedsasiapay23ults_ProtocolErrorEventP"
+- !private "14Threedsasiapay22ults_RuntimeErrorEventP"
+- !private "14Threedsasiapay16ults_TransactionP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/CryptoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/SDK/isDebugged.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Headers/CryptoSwift.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/Threedsasiapay/Threedsasiapay.h"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/build/Threedsasiapay.build/Debug-iphonesimulator/Threedsasiapay.build/unextended-module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/CryptoSwift.framework/Modules/module.modulemap"
+- "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AdSupport.framework/Headers/AdSupport.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.0.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c08196490d2452840e35b232d35ca945"

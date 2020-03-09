@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["oobContinueLabel"],
+  "dependencies": {
+    "oobContinueLabel": { "anyOf": [
+            { "required": ["challengeInfoHeader"] },
+            { "required": ["challengeInfoText"] }
+            ]
+    }
+  }
+}

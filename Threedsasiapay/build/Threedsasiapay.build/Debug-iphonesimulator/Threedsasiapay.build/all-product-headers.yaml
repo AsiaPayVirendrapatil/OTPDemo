@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/virendrapatil/Library/Developer/Xcode/DerivedData/Threedsasiapay-futfehhyfaeozkcttuittukytsgb/Build/Products/Debug-iphonesimulator/Threedsasiapay.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Threedsasiapay-Swift.h",
+          'external-contents': "/Users/virendrapatil/Library/Developer/Xcode/DerivedData/Threedsasiapay-futfehhyfaeozkcttuittukytsgb/Build/Products/Debug-iphonesimulator/Threedsasiapay.framework/Headers/Threedsasiapay-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Threedsasiapay.h",
+          'external-contents': "/Users/virendrapatil/Desktop/Threedsasiapay/Threedsasiapay/Threedsasiapay.h"
+        },
+        {
+          'type': 'file',
+          'name': "isDebugged.h",
+          'external-contents': "/Users/virendrapatil/Desktop/Threedsasiapay/3DS/SDK/isDebugged.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/virendrapatil/Library/Developer/Xcode/DerivedData/Threedsasiapay-futfehhyfaeozkcttuittukytsgb/Build/Products/Debug-iphonesimulator/Threedsasiapay.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/virendrapatil/Desktop/Threedsasiapay/build/Threedsasiapay.build/Debug-iphonesimulator/Threedsasiapay.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

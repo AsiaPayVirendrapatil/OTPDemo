@@ -1,0 +1,11 @@
+framework module Asiapay_alipay_sdk {
+  umbrella header "Asiapay_alipay_sdk.h"
+
+  export *
+  module * { export * }
+}
+
+module Asiapay_alipay_sdk.Swift {
+    header "Asiapay_alipay_sdk-Swift.h"
+    requires objc
+}

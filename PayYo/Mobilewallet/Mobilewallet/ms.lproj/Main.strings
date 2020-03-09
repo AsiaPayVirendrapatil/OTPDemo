@@ -1,0 +1,300 @@
+
+/* Class = "UILabel"; text = "Resend OTP"; ObjectID = "11F-o4-eI3"; */
+"11F-o4-eI3.text" = "Hantar semula OTP";
+
+/* Class = "UITabBarItem"; title = "Bank"; ObjectID = "1gw-A4-A5Y"; */
+"1gw-A4-A5Y.title" = "Bank";
+
+/* Class = "UIButton"; normalTitle = "Activate"; ObjectID = "2Wl-G1-pgA"; */
+"2Wl-G1-pgA.normalTitle" = "Aktifkan";
+
+/* Class = "UITabBarItem"; title = "Scan"; ObjectID = "38c-fh-Hi4"; */
+"38c-fh-Hi4.title" = "Imbas";
+
+/* Class = "UIButton"; normalTitle = "Send OTP"; ObjectID = "3ra-cN-XSq"; */
+"3ra-cN-XSq.normalTitle" = "Hantar OTP";
+
+/* Class = "UILabel"; text = "Set up Wallet PIN"; ObjectID = "4dQ-UZ-0rZ"; */
+"4dQ-UZ-0rZ.text" = "Sediakan PIN Wallet";
+
+/* Class = "UILabel"; text = "Virendra"; ObjectID = "4p9-NT-mAg"; */
+"4p9-NT-mAg.text" = "Virendra";
+
+/* Class = "UILabel"; text = "Add Money"; ObjectID = "58u-HC-kuX"; */
+"58u-HC-kuX.text" = "Tambah wang";
+
+/* Class = "UILabel"; text = "Token History"; ObjectID = "60e-KT-jbJ"; */
+"60e-KT-jbJ.text" = "Sejarah Token";
+
+/* Class = "UILabel"; text = "45XX XXXX XXXX 1234    Visa "; ObjectID = "63w-Zh-5Kw"; */
+"63w-Zh-5Kw.text" = "45XX XXXX XXXX 1234    Visa ";
+
+/* Class = "UIButton"; normalTitle = "Generate Token"; ObjectID = "72b-Xz-22o"; */
+"72b-Xz-22o.normalTitle" = "Buat Token";
+
+/* Class = "UILabel"; text = "Enter amount to generate Money token"; ObjectID = "7AT-vj-lMe"; */
+"7AT-vj-lMe.text" = "Masukkan jumlah untuk menghasilkan token Wang";
+
+/* Class = "UILabel"; text = "$ 150"; ObjectID = "7El-TR-VBG"; */
+"7El-TR-VBG.text" = "$ 150";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "7Sj-Rl-hDQ"; */
+"7Sj-Rl-hDQ.normalTitle" = "Seterusnya";
+
+/* Class = "UISearchBar"; placeholder = "Search Bank"; ObjectID = "8gF-Bg-3Rz"; */
+"8gF-Bg-3Rz.placeholder" = "Cari Bank";
+
+/* Class = "UILabel"; text = "patilvirendra0@gmail.com"; ObjectID = "9CJ-7R-4ve"; */
+"9CJ-7R-4ve.text" = "patilvirendra0@gmail.com";
+
+/* Class = "UILabel"; text = "Add money to wallet"; ObjectID = "9mZ-Hy-0Xo"; */
+"9mZ-Hy-0Xo.text" = "Tambah wang ke dompet";
+
+/* Class = "UILabel"; text = "OTP"; ObjectID = "AGE-0O-Hfu"; */
+"AGE-0O-Hfu.text" = "OTP";
+
+/* Class = "UILabel"; text = "View Pending"; ObjectID = "CFH-KQ-5pB"; */
+"CFH-KQ-5pB.text" = "Lihat Pending";
+
+/* Class = "UILabel"; text = "Current balance  $ 100.25"; ObjectID = "Dhi-59-ylD"; */
+"Dhi-59-ylD.text" = "Baki semasa $ 100.25";
+
+/* Class = "UILabel"; text = "4500 9845 3532 2433"; ObjectID = "F1L-6R-nCw"; */
+"F1L-6R-nCw.text" = "4500 9845 3532 2433";
+
+/* Class = "UIButton"; normalTitle = "Create my Wallet"; ObjectID = "F2e-C1-Mzn"; */
+"F2e-C1-Mzn.normalTitle" = "Buat Wallet saya";
+
+/* Class = "UILabel"; text = "Already have PayYo Wallet ?"; ObjectID = "F2v-gh-9lg"; */
+"F2v-gh-9lg.text" = "Sudah ada PayYo Wallet?";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Hgc-SA-HAm"; */
+"Hgc-SA-HAm.title" = "Rumah";
+
+/* Class = "UILabel"; text = "Click + to add Card"; ObjectID = "I0P-fc-404"; */
+"I0P-fc-404.text" = "Klik + untuk menambah Kad";
+
+/* Class = "UILabel"; text = "Money Token"; ObjectID = "I1z-QA-QEH"; */
+"I1z-QA-QEH.text" = "Token Wang";
+
+/* Class = "UIButton"; normalTitle = "Withdraw Money"; ObjectID = "Kh0-S6-VNE"; */
+"Kh0-S6-VNE.normalTitle" = "Mengeluarkan wang";
+
+/* Class = "UIButton"; normalTitle = "Let's login"; ObjectID = "KuT-03-GAf"; */
+"KuT-03-GAf.normalTitle" = "Mari masuk";
+
+/* Class = "UILabel"; text = "19-jun-2019 10:00 am"; ObjectID = "MEM-yX-toO"; */
+"MEM-yX-toO.text" = "19-jun-2019 10:00 am";
+
+/* Class = "UILabel"; text = "19-june-2019 "; ObjectID = "MyJ-gN-XEM"; */
+"MyJ-gN-XEM.text" = "19-june-2019 ";
+
+/* Class = "UINavigationItem"; title = "PayYo"; ObjectID = "NJz-LW-mP1"; */
+"NJz-LW-mP1.title" = "PayYo";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "NLO-b2-bXj"; */
+"NLO-b2-bXj.normalTitle" = "Log masuk";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "NkB-fq-7FY"; */
+"NkB-fq-7FY.normalTitle" = "Hantar";
+
+/* Class = "UILabel"; text = "VISA"; ObjectID = "P7A-JX-9cT"; */
+"P7A-JX-9cT.text" = "VISA";
+
+/* Class = "UIButton"; normalTitle = "Pay Secure"; ObjectID = "PT4-Dp-Kil"; */
+"PT4-Dp-Kil.normalTitle" = "Bayar selamat";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "QNr-tw-qDN"; */
+"QNr-tw-qDN.placeholder" = "Nombor telefon";
+
+/* Class = "UITabBarItem"; title = "History"; ObjectID = "QfJ-u4-2Gz"; */
+"QfJ-u4-2Gz.title" = "Sejarah";
+
+/* Class = "UILabel"; text = "HDFC Bank : 0254XXXXXXXX5544"; ObjectID = "Rj9-N4-sle"; */
+"Rj9-N4-sle.text" = "HDFC Bank: 0254XXXXXXXX5544";
+
+/* Class = "UILabel"; text = "Generate New"; ObjectID = "Shz-pu-l2t"; */
+"Shz-pu-l2t.text" = "Menjana Baru";
+
+/* Class = "UILabel"; text = "Click + to add Bank"; ObjectID = "Tu7-jS-6Dc"; */
+"Tu7-jS-6Dc.text" = "Klik + untuk menambah Bank";
+
+/* Class = "UINavigationItem"; title = "Photo"; ObjectID = "UFk-vB-ti7"; */
+"UFk-vB-ti7.title" = "Foto";
+
+/* Class = "UIButton"; normalTitle = "Auth with Touch ID"; ObjectID = "VUG-js-nxy"; */
+"VUG-js-nxy.normalTitle" = "Auth dengan Touch ID";
+
+/* Class = "UILabel"; text = "Don't have PayYo wallet ? "; ObjectID = "Vwr-sO-fz4"; */
+"Vwr-sO-fz4.text" = "Tidak mempunyai dompet PayYo?";
+
+/* Class = "UILabel"; text = "Not received OTP  ?  "; ObjectID = "WCf-6z-l1l"; */
+"WCf-6z-l1l.text" = "Tidak menerima OTP ? ";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "XG4-JW-Bj2"; */
+"XG4-JW-Bj2.placeholder" = "Jumlah";
+
+/* Class = "UIButton"; normalTitle = "Link Bank"; ObjectID = "XMY-gf-RSX"; */
+"XMY-gf-RSX.normalTitle" = "Link Bank";
+
+/* Class = "UILabel"; text = "Rajesh"; ObjectID = "Yqa-2o-xKe"; */
+"Yqa-2o-xKe.text" = "Rajesh";
+
+/* Class = "UILabel"; text = "Select option to pay $ 150"; ObjectID = "Yx5-4j-bo1"; */
+"Yx5-4j-bo1.text" = "Pilih pilihan untuk membayar $ 150 ";
+
+/* Class = "UILabel"; text = "My Balance"; ObjectID = "Zaj-n5-yNF"; */
+"Zaj-n5-yNF.text" = "Baki saya";
+
+/* Class = "UIButton"; normalTitle = "Let's Create One"; ObjectID = "Zvc-RX-mHc"; */
+"Zvc-RX-mHc.normalTitle" = "Mari Buat Satu";
+
+/* Class = "UILabel"; text = "Current Balance $ 100.25"; ObjectID = "aPn-uE-HG5"; */
+"aPn-uE-HG5.text" = "Baki terkini $ 100.25";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "aVu-Hm-pRJ"; */
+"aVu-Hm-pRJ.placeholder" = "Nama terakhir";
+
+/* Class = "UILabel"; text = "Virendra"; ObjectID = "aXV-Mf-zQN"; */
+"aXV-Mf-zQN.text" = "Virendra";
+
+/* Class = "UILabel"; text = "$ 100.25"; ObjectID = "bA1-Pb-pNm"; */
+"bA1-Pb-pNm.text" = "$ 100.25";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "bDv-0w-iHp"; */
+"bDv-0w-iHp.normalTitle" = "Batalkan";
+
+/* Class = "UILabel"; text = "4500 9845 3532 2433"; ObjectID = "bgA-nC-5Sa"; */
+"bgA-nC-5Sa.text" = "4500 9845 3532 2433";
+
+/* Class = "UILabel"; text = "9843458583"; ObjectID = "bm2-nq-Lxj"; */
+"bm2-nq-Lxj.text" = "9843458583";
+
+/* Class = "UILabel"; text = "Withdraw"; ObjectID = "c9k-04-TfW"; */
+"c9k-04-TfW.text" = "Tarik balik";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "csv-hs-OD4"; */
+"csv-hs-OD4.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Money added to Wallet"; ObjectID = "d2i-3b-yVy"; */
+"d2i-3b-yVy.text" = "Wang ditambah ke Wallet";
+
+/* Class = "UILabel"; text = "All Transactions"; ObjectID = "fx2-t1-3RQ"; */
+"fx2-t1-3RQ.text" = "Semua Urus Niaga";
+
+/* Class = "UILabel"; text = "45XX XXXX XXXX 1234   "; ObjectID = "g65-Ie-nxw"; */
+"g65-Ie-nxw.text" = "45XX XXXX XXXX 1234   ";
+
+/* Class = "UILabel"; text = "+91 9800000000"; ObjectID = "gbU-JK-2ZG"; */
+"gbU-JK-2ZG.text" = "+91 9800000000";
+
+/* Class = "UILabel"; text = "Virendra"; ObjectID = "ghm-BG-jXg"; */
+"ghm-BG-jXg.text" = "Virendra";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "hQS-5J-GMG"; */
+"hQS-5J-GMG.text" = "Status";
+
+/* Class = "UITextField"; placeholder = "Email ID"; ObjectID = "hY7-Mq-VGr"; */
+"hY7-Mq-VGr.placeholder" = "ID emel";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "kfd-ei-jn7"; */
+"kfd-ei-jn7.placeholder" = "Jumlah";
+
+/* Class = "UILabel"; text = "Linked Bank account :"; ObjectID = "ksd-1t-Hbw"; */
+"ksd-1t-Hbw.text" = "Akaun Bank Berkaitan:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ll5-et-dTK"; */
+"ll5-et-dTK.text" = "Label";
+
+/* Class = "UILabel"; text = "Enter amount to Withdraw"; ObjectID = "lxt-pu-AjL"; */
+"lxt-pu-AjL.text" = "Masukkan jumlah Pengeluaran";
+
+/* Class = "UIButton"; normalTitle = "Request"; ObjectID = "n5k-uU-8qa"; */
+"n5k-uU-8qa.normalTitle" = "Permintaan";
+
+/* Class = "UILabel"; text = "Debit from VISA"; ObjectID = "ng6-2q-4Ru"; */
+"ng6-2q-4Ru.text" = "Debit dari VISA";
+
+/* Class = "UILabel"; text = "Received $50"; ObjectID = "nxd-dx-qXk"; */
+"nxd-dx-qXk.text" = "Menerima $50";
+
+/* Class = "UILabel"; text = "Send $20"; ObjectID = "oBz-ZP-3HY"; */
+"oBz-ZP-3HY.text" = "Hantar $20";
+
+/* Class = "UILabel"; text = "Re-enter Wallet PIN"; ObjectID = "rdH-sW-U2d"; */
+"rdH-sW-U2d.text" = "Masukkan semula PIN Wallet";
+
+/* Class = "UILabel"; text = "Cashout"; ObjectID = "rt7-cA-xu1"; */
+"rt7-cA-xu1.text" = "Keluarkan duit";
+
+/* Class = "UILabel"; text = "HDFC Credit Card"; ObjectID = "s2O-4y-x5G"; */
+"s2O-4y-x5G.text" = "Kad Kredit HDFC";
+
+/* Class = "UILabel"; text = "HDFC bank"; ObjectID = "sLA-xv-5Ll"; */
+"sLA-xv-5Ll.text" = "Bank HDFC";
+
+/* Class = "UILabel"; text = "jjqfqkfnjnfqn235253"; ObjectID = "sQc-9P-FsD"; */
+"sQc-9P-FsD.text" = "jjqfqkfnjnfqn235253";
+
+/* Class = "UIButton"; normalTitle = "Add Money"; ObjectID = "sUL-0g-xtB"; */
+"sUL-0g-xtB.normalTitle" = "Tambah wang";
+
+/* Class = "UILabel"; text = "HDFC"; ObjectID = "sgl-w4-wu9"; */
+"sgl-w4-wu9.text" = "HDFC";
+
+/* Class = "UITextField"; placeholder = "Comment"; ObjectID = "t2h-Aj-4mk"; */
+"t2h-Aj-4mk.placeholder" = "Komen";
+
+/* Class = "UILabel"; text = "Virendra Patil"; ObjectID = "tEi-kM-KZH"; */
+"tEi-kM-KZH.text" = "Virendra Patil";
+
+/* Class = "UILabel"; text = "HDFC Credit Card"; ObjectID = "tOR-Jv-lDw"; */
+"tOR-Jv-lDw.text" = "Kad Kredit HDFC";
+
+/* Class = "UIButton"; normalTitle = "Filter"; ObjectID = "tQh-EC-dqi"; */
+"tQh-EC-dqi.normalTitle" = "Penapis";
+
+/* Class = "UILabel"; text = "01/21"; ObjectID = "tRm-vg-iod"; */
+"tRm-vg-iod.text" = "01/21";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "tWb-gh-Nc0"; */
+"tWb-gh-Nc0.text" = "Status";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "trk-Y8-q6u"; */
+"trk-Y8-q6u.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "ujJ-SB-wWM"; */
+"ujJ-SB-wWM.placeholder" = "Jumlah";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "vB5-xb-t3F"; */
+"vB5-xb-t3F.placeholder" = "Nombor telefon";
+
+/* Class = "UILabel"; text = "Current balance $ 100.25"; ObjectID = "vfU-1K-xqV"; */
+"vfU-1K-xqV.text" = "Baki semasa $ 100.25";
+
+/* Class = "UILabel"; text = "VALID THRU"; ObjectID = "w2I-ba-2bK"; */
+"w2I-ba-2bK.text" = "SAH MELALUI";
+
+/* Class = "UILabel"; text = "Set up Wallet PIN"; ObjectID = "wrD-AU-Nl6"; */
+"wrD-AU-Nl6.text" = "Sediakan PIN Wallet";
+
+/* Class = "UILabel"; text = "Send / Request Money"; ObjectID = "wsz-fY-KSB"; */
+"wsz-fY-KSB.text" = "Hantar / Meminta Wang";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "xB2-d3-e2O"; */
+"xB2-d3-e2O.normalTitle" = "Kongsi";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "xpK-1d-4A9"; */
+"xpK-1d-4A9.text" = "Menetapkan";
+
+/* Class = "UITabBarItem"; title = "Card"; ObjectID = "yRr-k7-Umx"; */
+"yRr-k7-Umx.title" = "Kad";
+
+/* Class = "UILabel"; text = "19-jun-2019 10:00 am"; ObjectID = "ybl-rG-X9b"; */
+"ybl-rG-X9b.text" = "19-jun-2019 10:00 am";
+
+/* Class = "UIButton"; normalTitle = "Request Money"; ObjectID = "yn8-zb-8ed"; */
+"yn8-zb-8ed.normalTitle" = "Meminta wang";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "zSI-fU-lZD"; */
+"zSI-fU-lZD.placeholder" = "Nama pertama";

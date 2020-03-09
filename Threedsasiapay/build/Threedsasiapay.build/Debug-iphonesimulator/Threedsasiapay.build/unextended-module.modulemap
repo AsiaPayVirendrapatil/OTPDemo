@@ -1,0 +1,10 @@
+framework module Threedsasiapay {
+  umbrella header "Threedsasiapay.h"
+
+  export *
+  module * { export * }
+}
+
+module Threedsasiapay.__Swift {
+    exclude header "Threedsasiapay-Swift.h"
+}

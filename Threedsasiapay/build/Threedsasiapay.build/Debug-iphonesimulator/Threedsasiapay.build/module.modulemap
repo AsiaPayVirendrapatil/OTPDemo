@@ -1,0 +1,11 @@
+framework module Threedsasiapay {
+  umbrella header "Threedsasiapay.h"
+
+  export *
+  module * { export * }
+}
+
+module Threedsasiapay.Swift {
+    header "Threedsasiapay-Swift.h"
+    requires objc
+}
