@@ -1,70 +1,22 @@
+//
 //  AppDelegate.swift
-//  Mobilewallet
-//  Created by Virendra patil on 19/11/19.
+//  OTPdemo
+//
+//  Created by Virendra patil on 27/11/19.
 //  Copyright © 2019 Virendra patil. All rights reserved.
-
+//
 
 import UIKit
 import CoreData
-import Firebase
-import FirebaseMessaging
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var navigationController : UINavigationController?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
-        self.registerForPushNotification()
         return true
-    }
-    
-    func ShowSettingScreen() {
-
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        // mainViewController is actually frontViewController, the first one that you want to show to the user
-        let rearview = storyboard.instantiateViewController(withIdentifier: "SlideMenuView") as! SlideMenuView
-        let frontview = storyboard.instantiateViewController(withIdentifier: "ProfileView") as! ProfileView
-        let rightViewController = storyboard.instantiateViewController(withIdentifier: "SlideMenuView") as! SlideMenuView
-        let nvc: UINavigationController = UINavigationController(rootViewController: frontview)
-        // we can also initialize like this, but since we have example with rightViewController we can use SWRevealViewController()
-        let swRevealViewController = SWRevealViewController(rearViewController: rearview, frontViewController: nvc)
-        swRevealViewController!.setFront(frontview, animated: true)
-        swRevealViewController!.setRear(rearview, animated: true)
-        swRevealViewController!.setRight(rightViewController, animated: true)
-        //self.navigationController?.pushViewController(nvc, animated: true)
-        self.window?.rootViewController = swRevealViewController
-        
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let profileview = storyboard.instantiateViewController(withIdentifier: "ProfileView") as! ProfileView
-//        self.navigationController?.pushViewController(profileview, animated: true)
-//        nvc.pushViewController(profileview, animated: true)
-//        self.window?.rootViewController = profileview
-    }
-
-    func ShowLogOutScreen() {
-
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let loginview = storyboard.instantiateViewController(withIdentifier: "LoginView") as! LoginView
-        let nvc: UINavigationController = UINavigationController(rootViewController: loginview)
-        self.window?.rootViewController = nvc
-    }
-
-    func showLoggedInUserScreens(){
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        // mainViewController is actually frontViewController, the first one that you want to show to the user
-        let rearview = storyboard.instantiateViewController(withIdentifier: "SlideMenuView") as! SlideMenuView
-        let frontview = storyboard.instantiateViewController(withIdentifier: "TabView") as! TabView
-        let rightViewController = storyboard.instantiateViewController(withIdentifier: "SlideMenuView") as! SlideMenuView
-        let nvc: UINavigationController = UINavigationController(rootViewController: frontview)
-        // we can also initialize like this, but since we have example with rightViewController we can use SWRevealViewController()
-        let swRevealViewController = SWRevealViewController(rearViewController: rearview, frontViewController: nvc)
-        swRevealViewController!.setFront(frontview, animated: true)
-        swRevealViewController!.setRear(rearview, animated: true)
-        swRevealViewController!.setRight(rightViewController, animated: true)
-        self.window?.rootViewController = swRevealViewController
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -100,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Mobilewallet")
+        let container = NSPersistentContainer(name: "OTPdemo")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -135,5 +87,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+
 }
 
